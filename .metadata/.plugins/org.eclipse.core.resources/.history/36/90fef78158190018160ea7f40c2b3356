@@ -1,0 +1,4 @@
+server.port=8081
+spring.application.name=config
+ 
+spring.cloud.config.server.git.uri=file://${user.home}/application-config

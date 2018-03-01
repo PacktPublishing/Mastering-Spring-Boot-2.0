@@ -14,6 +14,8 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\packt-spring-boot-ws\cloud-config-client"/>
+			<item value="D:\packt-spring-boot-ws\cloud-config-app"/>
 			<item value="D:\packt-spring-boot-ws\SpringBootActuator"/>
 			<item value="D:\packt-spring-boot-ws\mastering-spring-boot"/>
 		</list>

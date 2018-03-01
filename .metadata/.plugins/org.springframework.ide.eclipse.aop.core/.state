@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
-<aop-project name="mastering-spring-boot"/>
-<aop-project name="HelloWorld"/>
-<aop-project name="SpringBootActuator"/>
+<aop-project name="cloud-config-app"/>
+<aop-project name="cloud-config-client"/>
 </aop-reference-model>

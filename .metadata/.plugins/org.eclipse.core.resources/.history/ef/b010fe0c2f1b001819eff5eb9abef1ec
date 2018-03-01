@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.dineshonjava.cloudconfigclient;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+public class ConfigClientController {
+
+}

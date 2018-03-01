@@ -1,0 +1,5 @@
+spring.cloud.config.discovery.enabled=true
+
+spring.application.name=config-client
+spring.profiles.active=dev
+spring.cloud.config.uri=http://localhost:8888
