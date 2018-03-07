@@ -1,4 +1,0 @@
-server.port=8081
-spring.application.name=cloud-config-app
- 
-spring.cloud.config.server.git.uri=file:///D:/app-config-repo

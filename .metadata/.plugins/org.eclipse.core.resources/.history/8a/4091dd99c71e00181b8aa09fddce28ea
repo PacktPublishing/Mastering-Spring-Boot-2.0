@@ -1,0 +1,37 @@
+/**
+ * 
+ */
+package com.dineshonjava.eurekaclient;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.netflix.appinfo.InstanceInfo;
+import com.netflix.discovery.EurekaClient;
+import com.netflix.discovery.shared.Application;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+@RestController
+public class HelloController {
+	
+	@Autowired
+	private EurekaClient eurekaClient;
+	
+	public String serviceUrl() {
+	    Application application = eurekaClient.getApplication("spring-cloud-eureka-client");
+	    InstanceInfo instanceInfo = application.getInstances().get(0);
+	    String hostname = instanceInfo.getHostName();
+	    int port = instanceInfo.getPort();
+	    // we can find many information related to the instance
+	    return instanceInfo.getHomePageUrl();
+	}
+	
+	@GetMapping("/hello")
+    public String greeting() {
+        return "Hello to the Dineshonjava from EurekaClient!";
+    }
+}

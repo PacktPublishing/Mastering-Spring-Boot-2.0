@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.dineshonjava.feignclient.service;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+public interface HelloService {
+
+}

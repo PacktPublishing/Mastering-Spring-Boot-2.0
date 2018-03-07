@@ -1,2 +1,0 @@
-spring.cloud.config.discovery.enabled=true
-server.port=1212

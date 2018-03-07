@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
-<aop-project name="cloud-config-app"/>
-<aop-project name="cloud-config-client"/>
+<aop-project name="ribbon-client"/>
+<aop-project name="eureka-client"/>
+<aop-project name="feign-client"/>
+<aop-project name="eureka-server"/>
 </aop-reference-model>

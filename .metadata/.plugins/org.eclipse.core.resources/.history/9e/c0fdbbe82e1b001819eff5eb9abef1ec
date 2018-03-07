@@ -1,3 +1,0 @@
-spring.application.name=config-client
-spring.profiles.active=development
-spring.cloud.config.uri=http://localhost:8888

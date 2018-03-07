@@ -1,0 +1,27 @@
+/**
+ * 
+ */
+package com.dineshonjava.ribbonclient.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.client.RestTemplate;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+@Controller
+public class HelloWebController {
+	
+	@Autowired
+	RestTemplate restTemplate;
+	
+	@GetMapping("/say-hello")
+	String sayHello(ModelMap model){
+		model.put("message", helloServiceClient.sayHello());
+		return "hello";
+	}
+}

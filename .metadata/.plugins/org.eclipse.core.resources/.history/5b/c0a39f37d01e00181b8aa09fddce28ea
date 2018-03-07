@@ -1,0 +1,26 @@
+/**
+ * 
+ */
+package com.dineshonjava.feignclient.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
+
+import com.dineshonjava.feignclient.service.HelloServiceClient;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+@Controller
+public class HelloWebController {
+	
+	@Autowired
+	HelloServiceClient helloServiceClient;
+	
+	String sayHello(ModelMap model){
+		model.put("message", helloServiceClient.sayHello());
+		return "hello";
+	}
+}

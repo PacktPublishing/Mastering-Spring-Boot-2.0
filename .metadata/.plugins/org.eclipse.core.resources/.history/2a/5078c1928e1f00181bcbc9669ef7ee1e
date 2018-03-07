@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.dineshonjava.ribbonclient.service;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+public class HelloServiceClient {
+
+}

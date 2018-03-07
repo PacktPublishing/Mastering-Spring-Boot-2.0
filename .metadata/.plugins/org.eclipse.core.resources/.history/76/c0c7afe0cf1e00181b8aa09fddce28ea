@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.dineshonjava.feignclient.controller;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+public class HomeController {
+
+}
