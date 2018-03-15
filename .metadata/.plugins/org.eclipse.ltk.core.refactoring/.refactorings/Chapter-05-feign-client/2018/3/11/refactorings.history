@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;hello.html&apos; to &apos;templates&apos;&#x0D;&#x0A;- Original project: &apos;Chapter-05-feign-client&apos;&#x0D;&#x0A;- Destination element: &apos;templates&apos;&#x0D;&#x0A;- Original element: &apos;hello.html&apos;" description="Copy file" element1="src/main/resources/templates/hello.html" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1520939211527" target="/web-application/src/main/resources/templates" units="0" version="1.0"/>
+</session>

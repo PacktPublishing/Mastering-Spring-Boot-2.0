@@ -1,0 +1,5 @@
+INSERT INTO ACCOUNT (customer_id, account_id, account_type, balance, branch_code, bank) values (1000, 1, 'SAVING', 3502.92, 'HDFC001', 'HDFC');
+INSERT INTO ACCOUNT (id, name, balance) values (2000, 'Kumar', 40000);
+INSERT INTO ACCOUNT (id, name, balance) values (3000, 'Rajput', 60000);
+
+CREATE TABLE ACCOUNT (customer_id INTEGER, account_id INTEGER, account_type VARCHAR(20), balance DOUBLE, branch_code VARCHAR(10), bank VARCHAR(10));

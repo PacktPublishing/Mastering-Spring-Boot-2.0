@@ -1,0 +1,3 @@
+INSERT INTO ACCOUNT (customer_id, account_id, account_type, balance, branch_code, bank) values (1000, 100, 'SAVING', 3502.92, 'HDFC001', 'HDFC');
+INSERT INTO ACCOUNT (customer_id, account_id, account_type, balance, branch_code, bank) values (1001, 200, 'SAVING', 3122.05, 'HDFC002', 'HDFC');
+INSERT INTO ACCOUNT (customer_id, account_id, account_type, balance, branch_code, bank) values (1002, 300, 'SAVING', 4553.43, 'HDFC003', 'HDFC');

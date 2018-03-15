@@ -1,0 +1,13 @@
+/**
+ * 
+ */
+package com.dineshonjava.webapplication.exception;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+public class AccountNotFoundException extends RuntimeException{
+	
+	
+}

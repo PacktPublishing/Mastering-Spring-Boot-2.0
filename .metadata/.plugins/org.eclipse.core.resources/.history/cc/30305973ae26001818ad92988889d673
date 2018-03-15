@@ -1,0 +1,15 @@
+/**
+ * 
+ */
+package com.dineshonjava.webapplication.controller;
+
+import org.springframework.stereotype.Controller;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+@Controller
+public class WebController {
+
+}

@@ -6,4 +6,8 @@
 	</section>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
 	</section>
+	<section name="InferTypeArguments">
+		<item value="true" key="leaveUnconstrainedRaw"/>
+		<item value="true" key="assumeCloneReturnsSameType"/>
+	</section>
 </section>

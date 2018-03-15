@@ -1,0 +1,24 @@
+/**
+ * 
+ */
+package com.dineshonjava.customerservice.service;
+
+import java.util.List;
+
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import com.dineshonjava.customerservice.domain.Account;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+@FeignClient("account-service")
+public interface AccountService {
+	
+	@PostMapping(value = "/account/customer/{customer}")
+	List<Account> findByCutomer (@PathVariable("customer") Integer customer);
+}

@@ -1,0 +1,30 @@
+/**
+ * 
+ */
+package com.dineshonjava.accountservice.domain;
+
+import java.io.Serializable;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+@Table
+@Entity
+public class Account implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	@Id//Pk
+	Integer account_id;
+	Double balance;
+	Integer customer_id;
+	String account_type;
+	String branch_code;
+	String bank;
+}

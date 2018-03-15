@@ -1,0 +1,15 @@
+/**
+ * 
+ */
+package com.dineshonjava.webapplication.exception;
+
+import org.springframework.web.bind.annotation.ControllerAdvice;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+@ControllerAdvice
+public class AccountAdviceController {
+
+}

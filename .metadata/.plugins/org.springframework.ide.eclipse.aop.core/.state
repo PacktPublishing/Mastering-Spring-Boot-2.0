@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
-<aop-project name="ribbon-client"/>
-<aop-project name="eureka-client"/>
-<aop-project name="feign-client"/>
-<aop-project name="eureka-server"/>
+<aop-project name="notification-service"/>
+<aop-project name="Chapter-05-feign-client"/>
+<aop-project name="Chapter-05-ribbon-client"/>
+<aop-project name="Chapter-05-eureka-client"/>
+<aop-project name="customer-service"/>
+<aop-project name="Chapter-05-eureka-server"/>
+<aop-project name="web-application"/>
+<aop-project name="account-service"/>
 </aop-reference-model>

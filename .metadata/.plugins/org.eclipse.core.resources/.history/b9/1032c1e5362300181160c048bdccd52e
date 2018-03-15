@@ -1,0 +1,68 @@
+package com.dineshonjava.accountservice.domain;
+
+import java.io.Serializable;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+@Table
+@Entity
+public class Account implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	@Id//Pk
+	Integer account_id;
+	Double balance;
+	Integer customer_id;
+	String account_type;
+	String branch_code;
+	String bank;
+	public Integer getAccount_id() {
+		return account_id;
+	}
+	public void setAccount_id(Integer account_id) {
+		this.account_id = account_id;
+	}
+	public Double getBalance() {
+		return balance;
+	}
+	public void setBalance(Double balance) {
+		this.balance = balance;
+	}
+	public Integer getCustomer_id() {
+		return customer_id;
+	}
+	public void setCustomer_id(Integer customer_id) {
+		this.customer_id = customer_id;
+	}
+	public String getAccount_type() {
+		return account_type;
+	}
+	public void setAccount_type(String account_type) {
+		this.account_type = account_type;
+	}
+	public String getBranch_code() {
+		return branch_code;
+	}
+	public void setBranch_code(String branch_code) {
+		this.branch_code = branch_code;
+	}
+	public String getBank() {
+		return bank;
+	}
+	public void setBank(String bank) {
+		this.bank = bank;
+	}
+	@Override
+	public String toString() {
+		return "Account [account_id=" + account_id + ", balance=" + balance + ", customer_id=" + customer_id
+				+ ", account_type=" + account_type + ", branch_code=" + branch_code + ", bank=" + bank + "]";
+	}
+}

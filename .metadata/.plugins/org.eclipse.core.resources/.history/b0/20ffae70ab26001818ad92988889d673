@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.dineshonjava.webapplication.service;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+public class WebAccountsService {
+
+}

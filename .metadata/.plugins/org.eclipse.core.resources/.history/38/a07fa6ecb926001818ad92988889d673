@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Account Management Page | Dineshonjava.com</title>
+    </head>
+    <body>
+    	<h3><a href="/accounts">All Accounts</a></h3>
+        <h3><a href="/account">Open Account</a></h3>
+    </body>
+</html>

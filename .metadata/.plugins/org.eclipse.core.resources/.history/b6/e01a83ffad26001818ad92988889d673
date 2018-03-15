@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package com.dineshonjava.webapplication.exception;
+
+import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+@ControllerAdvice
+public class AccountAdviceController {
+	
+	 @ExceptionHandler(AccountNotFoundException.class)
+	 String getAccount(Integer articleId) {
+		 throw new IllegalArgumentException("Getting article problem.");
+	 }
+}
