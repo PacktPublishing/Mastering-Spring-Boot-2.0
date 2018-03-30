@@ -1,6 +1,0 @@
-INSERT INTO CUSTOMER (customerId, customerName, mobile, email, city) values (1000, 'Dinesh Rajput', '94312XX223', 'dineshxxx@mail.com', 'Noida');
-INSERT INTO CUSTOMER (customerId, customerName, mobile, email, city) values (1001, 'Arnav Rajput', 'CURRENT', 3122.05, 'HDFC002', 'HDFC');
-INSERT INTO CUSTOMER (customerId, customerName, mobile, email, city) values (1002, 'Anamika Rajput', 'SAVING', 4553.43, 'HDFC003', 'HDFC');
-INSERT INTO CUSTOMER (customerId, customerName, mobile, email, city) values (1003, 'Adesh Rajput', 'SAVING', 3502.92, 'ICICI001', 'ICICI');
-INSERT INTO CUSTOMER (customerId, customerName, mobile, email, city) values (1004, 'Vinesh Rajput', 'CURRENT', 3122.05, 'ICICI002', 'ICICI');
-INSERT INTO CUSTOMER (customerId, customerName, mobile, email, city) values (1005, 'Pradeep Rajput', 'SAVING', 4553.43, 'ICICI003', 'ICICI');

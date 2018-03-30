@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package com.dineshonjava.customerservice.service;
+
+import java.util.List;
+
+import com.dineshonjava.customerservice.domain.Account;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+public class AccountServiceFallback implements AccountService {
+
+	@Override
+	public List<Account> findByCutomer(Integer customer) {
+		return new Account();
+	}
+
+}

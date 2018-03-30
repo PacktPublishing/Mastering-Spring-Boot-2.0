@@ -1,3 +1,0 @@
-INSERT INTO ACCOUNT (customer_id, account_id, account_type, balance, branch_code, bank) values (1000, 1, 'SAVING', 3502.92, 'HDFC001', 'HDFC');
-INSERT INTO ACCOUNT (customer_id, account_id, account_type, balance, branch_code, bank) values (1000, 1, 'SAVING', 3502.92, 'HDFC001', 'HDFC');
-INSERT INTO ACCOUNT (customer_id, account_id, account_type, balance, branch_code, bank) values (1000, 1, 'SAVING', 3502.92, 'HDFC001', 'HDFC');

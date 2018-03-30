@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.dineshonjava.customerservice.service;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+public class MyAccountService {
+
+}

@@ -1,0 +1,35 @@
+/**
+ * 
+ */
+package com.dineshonjava.customerservice.service;
+
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+public class MyAccountService {
+	
+	@HystrixCommand(fallbackMethod = "fallback")
+	public String ok() {
+		return "OK";
+	}
+
+	@HystrixCommand(fallbackMethod = "fallback")
+	public String fail(boolean throwSomething) {
+		if(throwSomething)
+		  throw new RuntimeException("fail now");
+		else
+		  return "";
+
+	}
+
+	public String fallback() {
+		return "from the fallback";
+	}
+
+	public String fallback(boolean throwSomething) {
+		return "from the fallback";
+	}
+}

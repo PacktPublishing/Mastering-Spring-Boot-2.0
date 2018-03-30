@@ -1,1 +1,0 @@
-CREATE TABLE ACCOUNT (customerId INTEGER, accountId INTEGER, accountType VARCHAR(20), balance DOUBLE, branchCode VARCHAR(10), bank VARCHAR(10));

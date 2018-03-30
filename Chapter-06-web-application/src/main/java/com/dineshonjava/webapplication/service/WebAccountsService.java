@@ -24,7 +24,6 @@ public class WebAccountsService {
     @LoadBalanced
     protected RestTemplate restTemplate;
 	
-	// ACCOUNTS-SERVICE is the name of the microservice we're calling
 	protected String serviceUrl = "http://ACCOUNT-SERVICE"; 
 	
     public Account getByNumber(String accountNumber) {

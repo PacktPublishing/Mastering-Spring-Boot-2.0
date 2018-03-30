@@ -1,0 +1,19 @@
+management:
+  endpoint:
+    health:
+      enabled: true
+      show-details: always
+      
+spring:
+  application:
+    name: customer-service
+
+server:
+  port: 6161
+
+eureka:
+  client:
+    service-url:
+      default-zone: ${EUREKA_URI:http://localhost:8761/eureka}
+  instance:
+    prefer-ip-address: true

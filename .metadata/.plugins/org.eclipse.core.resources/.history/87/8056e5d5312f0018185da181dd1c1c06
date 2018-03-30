@@ -1,0 +1,21 @@
+package com.dineshonjava.customerservice.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.dineshonjava.customerservice.domain.Account;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+@Service
+public class AccountServiceImpl implements AccountService {
+
+	@Override
+	public List<Account> findByCutomer(Integer customer) {
+		return null;
+	}
+
+}

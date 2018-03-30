@@ -1,2 +1,0 @@
-INSERT INTO ACCOUNT (customerId, accountId, accountType, balance, branchCode, bank) values (1000, 100, 'SAVING', 3502.92, 'HDFC001', 'HDFC');
-
