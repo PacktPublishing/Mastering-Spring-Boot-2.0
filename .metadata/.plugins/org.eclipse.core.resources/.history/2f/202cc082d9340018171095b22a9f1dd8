@@ -1,0 +1,152 @@
+/**
+ * 
+ */
+package com.dineshonjava.accountservice.repository;
+
+import java.util.List;
+import java.util.Optional;
+
+import com.dineshonjava.accountservice.domain.Account;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+public class StubAccountRepository implements AccountRepository {
+
+	/* (non-Javadoc)
+	 * @see org.springframework.data.repository.CrudRepository#count()
+	 */
+	@Override
+	public long count() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	/* (non-Javadoc)
+	 * @see org.springframework.data.repository.CrudRepository#delete(java.lang.Object)
+	 */
+	@Override
+	public void delete(Account arg0) {
+		// TODO Auto-generated method stub
+
+	}
+
+	/* (non-Javadoc)
+	 * @see org.springframework.data.repository.CrudRepository#deleteAll()
+	 */
+	@Override
+	public void deleteAll() {
+		// TODO Auto-generated method stub
+
+	}
+
+	/* (non-Javadoc)
+	 * @see org.springframework.data.repository.CrudRepository#deleteAll(java.lang.Iterable)
+	 */
+	@Override
+	public void deleteAll(Iterable<? extends Account> arg0) {
+		// TODO Auto-generated method stub
+
+	}
+
+	/* (non-Javadoc)
+	 * @see org.springframework.data.repository.CrudRepository#deleteById(java.lang.Object)
+	 */
+	@Override
+	public void deleteById(Integer arg0) {
+		// TODO Auto-generated method stub
+
+	}
+
+	/* (non-Javadoc)
+	 * @see org.springframework.data.repository.CrudRepository#existsById(java.lang.Object)
+	 */
+	@Override
+	public boolean existsById(Integer arg0) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	/* (non-Javadoc)
+	 * @see org.springframework.data.repository.CrudRepository#findAll()
+	 */
+	@Override
+	public Iterable<Account> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see org.springframework.data.repository.CrudRepository#findAllById(java.lang.Iterable)
+	 */
+	@Override
+	public Iterable<Account> findAllById(Iterable<Integer> arg0) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see org.springframework.data.repository.CrudRepository#findById(java.lang.Object)
+	 */
+	@Override
+	public Optional<Account> findById(Integer arg0) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see org.springframework.data.repository.CrudRepository#save(java.lang.Object)
+	 */
+	@Override
+	public <S extends Account> S save(S arg0) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see org.springframework.data.repository.CrudRepository#saveAll(java.lang.Iterable)
+	 */
+	@Override
+	public <S extends Account> Iterable<S> saveAll(Iterable<S> arg0) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see com.dineshonjava.accountservice.repository.AccountRepository#findAllByCustomerId(java.lang.Integer)
+	 */
+	@Override
+	public List<Account> findAllByCustomerId(Integer customerId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see com.dineshonjava.accountservice.repository.AccountRepository#findAllByAccountType(java.lang.String)
+	 */
+	@Override
+	public List<Account> findAllByAccountType(String accountType) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see com.dineshonjava.accountservice.repository.AccountRepository#findByBank(java.lang.String)
+	 */
+	@Override
+	public List<Account> findByBank(String bank) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see com.dineshonjava.accountservice.repository.AccountRepository#findAccountByAccountId(java.lang.Integer)
+	 */
+	@Override
+	public Account findAccountByAccountId(Integer accountId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

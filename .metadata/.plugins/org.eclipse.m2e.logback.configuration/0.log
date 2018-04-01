@@ -9741,3 +9741,264 @@ java.lang.NullPointerException: null
 2018-03-28 00:50:03,173 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
 2018-03-28 00:50:03,175 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-03-28 00:50:03,175 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-10-customer-service\src\test\resources
+2018-03-30 23:18:17,572 [Worker-27] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.dineshonjava:account-service:0.0.1-SNAPSHOT @ D:\packt-spring-boot-ws\Chapter-11-account-service\pom.xml.
+2018-03-30 23:18:19,325 [Worker-27] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Chapter-11-account-service/src/main/java
+2018-03-30 23:18:19,325 [Worker-27] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Chapter-11-account-service/src/main/resources
+2018-03-30 23:18:19,325 [Worker-27] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Chapter-11-account-service/src/main/resources
+2018-03-30 23:18:19,325 [Worker-27] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Chapter-11-account-service/src/test/java
+2018-03-30 23:18:19,612 [Worker-27] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 7 sec
+2018-03-30 23:18:23,763 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 23:18:23,769 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-30 23:18:23,808 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-30 23:18:23,812 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 23:18:23,813 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-05-eureka-server\src\test\resources
+2018-03-30 23:18:30,264 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 23:18:30,265 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-30 23:18:30,277 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-30 23:18:30,303 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 23:18:30,303 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-10-account-service\src\test\resources
+2018-03-30 23:18:34,515 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 23:18:34,516 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-30 23:18:34,578 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-30 23:18:34,633 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 23:18:34,635 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-10-customer-service\src\test\resources
+2018-03-30 23:18:37,846 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 23:18:37,847 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-30 23:18:37,895 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-30 23:18:37,899 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 23:18:37,899 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-10-turbine\src\test\resources
+2018-03-30 23:18:39,023 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 23:18:39,024 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-30 23:18:39,028 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-30 23:18:39,036 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 23:18:39,036 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-11-account-service\src\test\resources
+2018-03-31 06:37:28,623 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 06:37:28,623 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-31 06:37:28,639 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-31 06:37:28,639 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 06:37:28,639 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-11-account-service\src\test\resources
+2018-03-31 06:37:34,033 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 06:37:34,033 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-31 06:37:34,033 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-31 06:37:34,033 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 06:37:34,033 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-11-account-service\src\test\resources
+2018-03-31 06:37:47,713 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 06:37:47,729 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-03-31 06:37:47,729 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-31 06:37:47,729 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 06:37:47,729 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-11-account-service\src\test\resources
+2018-03-31 17:07:24,046 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:07:24,077 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-31 17:07:24,093 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-31 17:07:24,093 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:07:24,093 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-11-account-service\src\test\resources
+2018-03-31 17:07:43,478 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:07:43,483 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-31 17:07:43,499 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-31 17:07:43,502 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:07:43,503 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-11-account-service\src\test\resources
+2018-03-31 17:07:53,517 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:07:53,517 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-31 17:07:53,517 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-31 17:07:53,517 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:07:53,517 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-11-account-service\src\test\resources
+2018-03-31 17:08:14,018 [Worker-214] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:08:14,018 [Worker-214] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-31 17:08:14,026 [Worker-214] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-31 17:08:14,028 [Worker-214] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:08:14,028 [Worker-214] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-11-account-service\src\test\resources
+2018-03-31 17:08:33,315 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:08:33,315 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-31 17:08:33,315 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-31 17:08:33,315 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:08:33,315 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-11-account-service\src\test\resources
+2018-03-31 17:09:19,303 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:09:19,303 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-31 17:09:19,303 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-31 17:09:19,303 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:09:19,303 [Worker-212] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-11-account-service\src\test\resources
+2018-03-31 17:09:35,404 [Worker-215] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:09:35,404 [Worker-215] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-31 17:09:35,404 [Worker-215] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-31 17:09:35,420 [Worker-215] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:09:35,420 [Worker-215] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-11-account-service\src\test\resources
+2018-03-31 17:09:48,747 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:09:48,747 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-31 17:09:48,762 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-31 17:09:48,762 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:09:48,762 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-11-account-service\src\test\resources
+2018-03-31 17:10:11,461 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:10:11,461 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-31 17:10:11,461 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-31 17:10:11,461 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:10:11,461 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-11-account-service\src\test\resources
+2018-03-31 17:10:44,518 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:10:44,518 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-31 17:10:44,534 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-31 17:10:44,537 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:10:44,537 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-11-account-service\src\test\resources
+2018-03-31 17:10:55,511 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:10:55,511 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-31 17:10:55,511 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-31 17:10:55,511 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:10:55,511 [Worker-207] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-11-account-service\src\test\resources
+2018-03-31 17:11:42,972 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:11:42,972 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-31 17:11:42,972 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-31 17:11:42,987 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:11:42,987 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-11-account-service\src\test\resources
+2018-03-31 17:11:55,723 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:11:55,723 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-31 17:11:55,723 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-31 17:11:55,723 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:11:55,723 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-11-account-service\src\test\resources
+2018-03-31 17:12:24,980 [Worker-216] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:12:24,981 [Worker-216] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-31 17:12:24,984 [Worker-216] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-31 17:12:24,987 [Worker-216] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:12:24,987 [Worker-216] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-11-account-service\src\test\resources
+2018-03-31 17:12:42,465 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:12:42,465 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-31 17:12:42,469 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-31 17:12:42,473 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:12:42,473 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-11-account-service\src\test\resources
+2018-03-31 17:18:01,046 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:18:01,046 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-31 17:18:01,046 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-31 17:18:01,050 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:18:01,050 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-11-account-service\src\test\resources
+2018-03-31 17:19:04,326 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:19:04,326 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-31 17:19:04,330 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-31 17:19:04,330 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:19:04,330 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-11-account-service\src\test\resources
+2018-03-31 17:19:46,670 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:19:46,670 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-31 17:19:46,670 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-31 17:19:46,674 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:19:46,674 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-11-account-service\src\test\resources
+2018-03-31 17:21:55,179 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:21:55,179 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-31 17:21:55,179 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-31 17:21:55,183 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:21:55,183 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-11-account-service\src\test\resources
+2018-03-31 17:22:03,240 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:22:03,244 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-31 17:22:03,244 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-31 17:22:03,244 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:22:03,244 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-11-account-service\src\test\resources
+2018-03-31 17:23:27,590 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:23:27,590 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-31 17:23:27,594 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-31 17:23:27,594 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:23:27,594 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-11-account-service\src\test\resources
+2018-03-31 17:23:30,996 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:23:30,996 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-31 17:23:30,996 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-31 17:23:30,996 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:23:30,996 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-11-account-service\src\test\resources
+2018-03-31 17:23:34,388 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:23:34,388 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-31 17:23:34,392 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-31 17:23:34,392 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:23:34,392 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-11-account-service\src\test\resources
+2018-03-31 17:23:38,155 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:23:38,155 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-31 17:23:38,155 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-31 17:23:38,155 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:23:38,155 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-11-account-service\src\test\resources
+2018-03-31 17:24:37,518 [Worker-217] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:24:37,520 [Worker-217] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-31 17:24:37,580 [Worker-217] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-31 17:24:37,584 [Worker-217] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:24:37,584 [Worker-217] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-11-account-service\src\test\resources
+2018-03-31 17:24:46,313 [Worker-215] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:24:46,313 [Worker-215] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-31 17:24:46,313 [Worker-215] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-31 17:24:46,317 [Worker-215] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:24:46,317 [Worker-215] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-11-account-service\src\test\resources
+2018-03-31 17:25:20,303 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:25:20,303 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-31 17:25:20,303 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-31 17:25:20,306 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:25:20,306 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-11-account-service\src\test\resources
+2018-03-31 17:27:58,320 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:27:58,321 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-31 17:27:58,498 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-31 17:27:58,501 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:27:58,502 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-11-account-service\src\test\resources
+2018-03-31 17:28:07,978 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:28:07,978 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-31 17:28:07,990 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-31 17:28:07,990 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:28:07,990 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-11-account-service\src\test\resources
+2018-03-31 17:28:22,755 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:28:22,759 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-31 17:28:22,819 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-31 17:28:22,824 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:28:22,825 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-11-account-service\src\test\resources
+2018-03-31 17:28:30,110 [Worker-215] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:28:30,110 [Worker-215] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-31 17:28:30,110 [Worker-215] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-31 17:28:30,110 [Worker-215] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:28:30,114 [Worker-215] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-11-account-service\src\test\resources
+2018-03-31 17:29:38,208 [Worker-215] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:29:38,208 [Worker-215] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-31 17:29:38,208 [Worker-215] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-31 17:29:38,212 [Worker-215] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:29:38,212 [Worker-215] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-11-account-service\src\test\resources
+2018-03-31 17:29:44,956 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:29:44,956 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-31 17:29:44,960 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-31 17:29:44,964 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:29:44,964 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-11-account-service\src\test\resources
+2018-03-31 17:30:56,572 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:30:56,572 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-31 17:30:56,572 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-31 17:30:56,576 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:30:56,576 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-11-account-service\src\test\resources
+2018-03-31 17:31:14,671 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:31:14,671 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-31 17:31:14,671 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-31 17:31:14,678 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:31:14,678 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-11-account-service\src\test\resources
+2018-03-31 17:31:31,594 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:31:31,594 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-31 17:31:31,598 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-31 17:31:31,602 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:31:31,602 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-11-account-service\src\test\resources
+2018-03-31 17:32:13,446 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:32:13,450 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-31 17:32:13,450 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-31 17:32:13,450 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:32:13,450 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-11-account-service\src\test\resources
+2018-03-31 17:32:48,913 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:32:48,913 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-31 17:32:48,913 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-31 17:32:48,917 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:32:48,917 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-11-account-service\src\test\resources
+2018-03-31 17:32:52,997 [Worker-215] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:32:52,997 [Worker-215] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-31 17:32:52,997 [Worker-215] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-31 17:32:52,997 [Worker-215] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:32:52,997 [Worker-215] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-11-account-service\src\test\resources
+2018-03-31 17:33:43,754 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:33:43,754 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-31 17:33:43,754 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-31 17:33:43,754 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:33:43,754 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-11-account-service\src\test\resources
+2018-03-31 17:33:51,979 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:33:51,979 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-31 17:33:51,979 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-31 17:33:51,983 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 17:33:51,983 [Worker-211] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-11-account-service\src\test\resources
+2018-03-31 18:18:41,321 [Worker-229] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 18:18:41,321 [Worker-229] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-31 18:18:41,329 [Worker-229] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-03-31 18:18:41,329 [Worker-229] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 18:18:41,329 [Worker-229] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-11-account-service\src\test\resources
+2018-03-31 18:22:00,205 [Worker-230] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 18:22:00,205 [Worker-230] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-31 18:22:00,205 [Worker-230] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-31 18:22:00,209 [Worker-230] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-31 18:22:00,237 [Worker-230] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\packt-spring-boot-ws\Chapter-11-account-service\src\test\resources

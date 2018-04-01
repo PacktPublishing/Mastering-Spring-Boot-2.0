@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.dineshonjava.accountservice.service;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+public interface AccountService {
+
+}

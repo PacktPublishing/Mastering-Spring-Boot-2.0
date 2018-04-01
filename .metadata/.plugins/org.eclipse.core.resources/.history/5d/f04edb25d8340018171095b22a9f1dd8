@@ -1,0 +1,33 @@
+package com.dineshonjava.accountservice.service;
+
+import java.util.List;
+
+import com.dineshonjava.accountservice.domain.Account;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+public class AccountServiceImpl implements AccountService {
+
+	@Override
+	public List<Account> findAllByCustomerId(Integer customerId) {
+		return null;
+	}
+
+	@Override
+	public List<Account> findAllByAccountType(String accountType) {
+		return null;
+	}
+
+	@Override
+	public List<Account> findByBank(String bank) {
+		return null;
+	}
+
+	@Override
+	public Account findAccountByAccountId(Integer accountId) {
+		return null;
+	}
+
+}

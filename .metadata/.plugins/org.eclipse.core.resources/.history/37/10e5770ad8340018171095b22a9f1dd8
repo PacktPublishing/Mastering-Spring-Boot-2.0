@@ -1,0 +1,9 @@
+package com.dineshonjava.accountservice.service;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+public class AccountServiceImpl implements AccountService {
+
+}

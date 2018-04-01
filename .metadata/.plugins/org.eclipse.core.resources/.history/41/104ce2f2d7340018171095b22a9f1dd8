@@ -1,0 +1,5 @@
+package com.dineshonjava.accountservice.service;
+
+public class AccountServiceImpl implements AccountService {
+
+}

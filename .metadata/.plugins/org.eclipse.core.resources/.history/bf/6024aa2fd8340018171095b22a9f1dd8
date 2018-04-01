@@ -1,0 +1,39 @@
+package com.dineshonjava.accountservice.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.dineshonjava.accountservice.domain.Account;
+import com.dineshonjava.accountservice.repository.AccountRepository;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+public class AccountServiceImpl implements AccountService {
+	
+	@Autowired
+	AccountRepository accountRepository;
+
+	@Override
+	public List<Account> findAllByCustomerId(Integer customerId) {
+		return null;
+	}
+
+	@Override
+	public List<Account> findAllByAccountType(String accountType) {
+		return null;
+	}
+
+	@Override
+	public List<Account> findByBank(String bank) {
+		return null;
+	}
+
+	@Override
+	public Account findAccountByAccountId(Integer accountId) {
+		return null;
+	}
+
+}
