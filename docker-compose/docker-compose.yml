@@ -1,0 +1,23 @@
+version: "2"
+services:
+  eureka:
+    image: doj/eureka-server
+    ports:
+      - "8080:8761"
+  account:
+    image: doj/account-service
+    links:
+      - eureka 
+  customer:
+    image: doj/customer-service
+    ports:
+      - "8282:6060"
+    links:
+      - eureka
+      - account
+  ha_account:
+     image: tutum/haproxy
+     links:
+      - account
+     ports:
+       - "8181:80"

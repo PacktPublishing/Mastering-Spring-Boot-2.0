@@ -20,8 +20,8 @@ ADD . /app
 # Copy the current directory contents into the container at /app
 ADD target/customer-service-0.0.1-SNAPSHOT.jar customer-microservice.jar
 
-# Make port 3333 available to the world outside this container
-EXPOSE 3333
+# Make port 8181 available to the world outside this container
+EXPOSE 8181
 
 # Define environment variable
 ENV JAVA_OPTS=""

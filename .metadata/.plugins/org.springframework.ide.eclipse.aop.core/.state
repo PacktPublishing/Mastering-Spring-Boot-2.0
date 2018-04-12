@@ -4,5 +4,4 @@
 <aop-project name="Chapter-12-eureka-server-docker"/>
 <aop-project name="Chapter-12-customer-service-docker"/>
 <aop-project name="Chapter-12-notification-service-docker"/>
-<aop-project name="Chapter-05-eureka-server"/>
 </aop-reference-model>

@@ -1,11 +1,12 @@
-server:
-  port: 8761
-
+# Configure this Discovery Server
 eureka:
   instance:
     hostname: localhost
-  client:
+    prefer-ip-address: true
+  client: 
     registerWithEureka: false
     fetchRegistry: false
-    serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+
+# HTTP (Tomcat) port
+server:
+  port: 8761    
