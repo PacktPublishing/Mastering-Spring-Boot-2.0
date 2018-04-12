@@ -1,0 +1,14 @@
+
+fsquid:S2789S"@Methods with an "Optional" return type should never return null.(¥¹ïH€RMAJORZBUG
+Xsquid:S1168!"+Return an empty collection instead of null.(¥¹ïHRMAJORZ
+CODE_SMELL
+Xsquid:S1168&"+Return an empty collection instead of null.(¥¹ïH‚RMAJORZ
+CODE_SMELL
+±squid:S1186/"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Á€‡–HƒRCRITICALZ
+CODE_SMELL
+±squid:S11864"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(“ç¹ÍH„RCRITICALZ
+CODE_SMELL
+¶squid:S11869"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¬˜åÜøÿÿÿÿH…RCRITICALZ
+CODE_SMELL
+¶squid:S1186>"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(–ãª¶øÿÿÿÿH†RCRITICALZ
+CODE_SMELL

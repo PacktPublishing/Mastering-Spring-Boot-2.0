@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
-<aop-project name="notification-service"/>
+<aop-project name="Chapter-12-account-service-docker"/>
+<aop-project name="Chapter-12-eureka-server-docker"/>
+<aop-project name="Chapter-12-customer-service-docker"/>
+<aop-project name="Chapter-12-notification-service-docker"/>
 <aop-project name="Chapter-05-eureka-server"/>
-<aop-project name="Chapter-11-account-service"/>
 </aop-reference-model>

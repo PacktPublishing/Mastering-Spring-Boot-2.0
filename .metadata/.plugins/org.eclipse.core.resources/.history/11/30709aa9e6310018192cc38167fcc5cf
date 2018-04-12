@@ -1,6 +1,0 @@
-management.endpoint.health.enabled=true
-management.endpoints.jmx.exposure.include=*
-management.endpoints.web.exposure.include=*
-management.endpoints.web.base-path=/actuator
-management.endpoints.web.cors.allowed-origins=true
-management.endpoint.health.show-details=always

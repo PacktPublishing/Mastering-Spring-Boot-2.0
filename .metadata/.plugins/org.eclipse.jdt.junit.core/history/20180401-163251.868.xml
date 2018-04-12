@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="AccountServiceApplicationTests" project="Chapter-11-account-service" tests="2" started="2" failures="0" errors="0" ignored="0">
-  <testsuite name="com.dineshonjava.accountservice.AccountServiceApplicationTests" time="1.483">
-    <testcase name="findAllByCustomerId" classname="com.dineshonjava.accountservice.AccountServiceApplicationTests" time="1.465"/>
-    <testcase name="findAccountByAccountId" classname="com.dineshonjava.accountservice.AccountServiceApplicationTests" time="0.018"/>
-  </testsuite>
-</testrun>
