@@ -8,32 +8,32 @@
 		<docs>http://blogs.law.harvard.edu/tech/rss</docs>
 		<language>en-us</language>
 		<managingEditor>sts@springsource.com</managingEditor>
-		<pubDate>Thu, 22 Mar 2018 10:38:33 +0100</pubDate>
-		<lastBuildDate>Thu, 22 Mar 2018 10:38:33 +0100</lastBuildDate>
+		<pubDate>Mon, 16 Apr 2018 10:38:33 +0100</pubDate>
+		<lastBuildDate>Mon, 16 Apr 2018 10:38:33 +0100</lastBuildDate>
 		<atom:link href="http://dist.springsource.com.s3.amazonaws.com/release/STS/doc/updates.xml" rel="self" type="application/rss+xml"/>
 
 		<item>
-            <title>Thanks for installing STS 3.9.3</title>
+            <title>Thanks for installing STS 3.9.4</title>
             <link>http://spring.io/tools</link>
             <description><![CDATA[<form><p><a href="http://pivotal.io">Pivotal</a> has released an update to Spring Tool Suite (STS), the best Eclipse-powered development environment for building Spring powered enterprise application.</p>
 		<p>Please review the following documents:</p>
-		<li bindent="3"><a href="https://docs.spring.io/sts/nan/v393/NewAndNoteworthy.html">3.9.3 New &amp; Noteworthy</a></li><p></p></form>]]></description>
-            <pubDate>Thu, 22 Mar 2018 12:13:33 +0100</pubDate>
-			<category>version=[3.9.3.201803200759-RELEASE,4.0.0)</category>
+		<li bindent="3"><a href="https://docs.spring.io/sts/nan/v394/NewAndNoteworthy.html">3.9.4 New &amp; Noteworthy</a></li><p></p></form>]]></description>
+            <pubDate>Mon, 16 Apr 2018 12:13:33 +0100</pubDate>
+			<category>version=[3.9.4.201804120754-RELEASE,4.0.0)</category>
 		<!--            <category>severity=important</category>-->
-	        <guid isPermaLink="false">thanks-for-installing-sts-393</guid>
+	        <guid isPermaLink="false">thanks-for-installing-sts-394</guid>
 		</item>
 		
 		<item>
-			<title>STS 3.9.3 has been released</title>
+			<title>STS 3.9.4 has been released</title>
 			<link>http://spring.io/tools</link>
 			<description><![CDATA[<form><p><a href="http://pivotal.io">Pivotal</a> has released an update to Spring Tool Suite (STS), the best Eclipse-powered development environment for building Spring powered enterprise application.</p><p>It is recommend to update as soon as possible.</p>
 		<p>Please review the following documents:</p>
-		<li bindent="3"><a href="https://docs.spring.io/sts/nan/v393/NewAndNoteworthy.html">3.9.3 New &amp; Noteworthy</a></li><p></p></form>]]></description>
-        	<pubDate>Thu, 22 Mar 2018 12:12:33 +0100</pubDate>
-			<category>version=[0,3.9.3.201803200759-RELEASE)</category>
+		<li bindent="3"><a href="https://docs.spring.io/sts/nan/v394/NewAndNoteworthy.html">3.9.4 New &amp; Noteworthy</a></li><p></p></form>]]></description>
+        	<pubDate>Mon, 16 Apr 2018 12:12:33 +0100</pubDate>
+			<category>version=[0,3.9.4.201804120754-RELEASE)</category>
 			<category>severity=important</category>
-			<guid isPermaLink="false">sts-393-released</guid>
+			<guid isPermaLink="false">sts-394-released</guid>
 		</item>
 
 	</channel>

@@ -1,0 +1,27 @@
+/**
+ * 
+ */
+package com.dineshonjava.accountservice.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+@RestController
+public class CustomerController {
+	
+	@Api( value = "/people", description = "Manage people" )
+	@GetMapping("/customer/name")
+	public String customerName(String name){
+		return "Arnav Rajput";
+	}
+	
+	@PostMapping("/customer/name")
+	public String addCustomerName(){
+		return "Aashi Rajput";
+	}
+}

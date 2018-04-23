@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: account-service
+
+server:
+  port: 6060
+

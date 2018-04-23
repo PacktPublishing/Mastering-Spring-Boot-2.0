@@ -1,0 +1,66 @@
+package com.dineshonjava.accountservice.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.dineshonjava.accountservice.domain.Account;
+import com.dineshonjava.accountservice.service.AccountService;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+@RestController
+public class AccountController {
+	
+	@Autowired
+	AccountService accountService;
+	
+	@PostMapping(value = "/account")
+	public Account save (@RequestBody Account account){
+		return accountService.save(account);
+	}
+	
+	@GetMapping(value = "/account")
+	public Iterable<Account> all (){
+		return accountService.findAll();
+	}
+	
+	@GetMapping(value = "/account/{accountId}")
+	public Account findByAccountId (@PathVariable Integer accountId){
+		return accountService.findAccountByAccountId(accountId);
+	}
+	
+	@PutMapping(value = "/account")
+	public Account update (@RequestBody Account account){
+		return accountService.save(account);
+	}
+	
+	@DeleteMapping(value = "/account")
+	public void delete (@RequestBody Account account){
+		accountService.delete(account);
+	}
+	
+	@GetMapping(value = "/account/account-type/{type}")
+	public List<Account> findByAccountType (@PathVariable String type){
+		return accountService.findAllByAccountType(type);
+	}
+	
+	@GetMapping(value = "/account/bank/{bank}")
+	public List<Account> findByBank (@PathVariable String bank){
+		return accountService.findByBank(bank);
+	}
+	
+	@GetMapping(value = "/account/customer/{customer}")
+	public List<Account> findByCutomer (@PathVariable Integer customer){
+		return accountService.findAllByCustomerId(customer);
+	}
+}

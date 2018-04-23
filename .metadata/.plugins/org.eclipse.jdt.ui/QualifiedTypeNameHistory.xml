@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
 <fullyQualifiedTypeName name="org.springframework.cloud.config.server.EnableConfigServer"/>
 <fullyQualifiedTypeName name="com.netflix.discovery.shared.Application"/>
 <fullyQualifiedTypeName name="org.springframework.web.client.RestTemplate"/>
@@ -19,7 +18,6 @@
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ResponseStatus"/>
 <fullyQualifiedTypeName name="org.springframework.http.HttpStatus"/>
 <fullyQualifiedTypeName name="com.dineshonjava.webapplication.service.WebAccountsService"/>
-<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
 <fullyQualifiedTypeName name="org.springframework.cloud.openfeign.EnableFeignClients"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PutMapping"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.DeleteMapping"/>
@@ -38,4 +36,10 @@
 <fullyQualifiedTypeName name="com.dineshonjava.accountservice.service.AccountService"/>
 <fullyQualifiedTypeName name="org.springframework.boot.test.mock.mockito.MockBean"/>
 <fullyQualifiedTypeName name="com.dineshonjava.accountservice.domain.Account"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="springfox.documentation.service.Contact"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+<fullyQualifiedTypeName name="com.dineshonjava.accountservice.domain.Customer"/>
 </qualifiedTypeNameHistroy>
