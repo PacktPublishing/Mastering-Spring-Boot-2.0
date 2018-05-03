@@ -14,6 +14,9 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\packt-spring-boot-ws\Chapter-14-customer-service-docker-aws"/>
+			<item value="D:\packt-spring-boot-ws\Chapter-14-account-service-docker-aws"/>
+			<item value="D:\packt-spring-boot-ws\Chapter-12-notification-service-docker"/>
 			<item value="D:\packt-spring-boot-ws\Chapter-13-account-service-swagger"/>
 			<item value="D:\packt-spring-boot-ws\Chapter-12-eureka-server-docker"/>
 			<item value="D:\packt-spring-boot-ws\Chapter-12-customer-service-docker"/>
@@ -26,9 +29,6 @@
 			<item value="D:\packt-spring-boot-ws\Chapter-10-account-service"/>
 			<item value="D:\packt-spring-boot-ws\Chapter-08-web-application"/>
 			<item value="D:\packt-spring-boot-ws\web-application"/>
-			<item value="D:\packt-spring-boot-ws\notification-service"/>
-			<item value="D:\packt-spring-boot-ws\customer-service"/>
-			<item value="D:\packt-spring-boot-ws\account-service"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
