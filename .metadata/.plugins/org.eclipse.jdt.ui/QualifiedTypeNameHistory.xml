@@ -27,7 +27,6 @@
 <fullyQualifiedTypeName name="org.hibernate.mapping.Array"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="com.dineshonjava.customerservice.domain.Account"/>
 <fullyQualifiedTypeName name="org.springframework.cloud.netflix.turbine.EnableTurbine"/>
 <fullyQualifiedTypeName name="org.springframework.cloud.netflix.eureka.EnableEurekaClient"/>
 <fullyQualifiedTypeName name="org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboard"/>
@@ -42,4 +41,7 @@
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
 <fullyQualifiedTypeName name="com.dineshonjava.accountservice.domain.Customer"/>
+<fullyQualifiedTypeName name="org.slf4j.Logger"/>
+<fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
+<fullyQualifiedTypeName name="com.dineshonjava.customerservice.domain.Account"/>
 </qualifiedTypeNameHistroy>

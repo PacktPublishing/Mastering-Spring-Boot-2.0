@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;logback.xml&apos; to &apos;Chapter-15-eureka-server/src/main/resources&apos;&#x0D;&#x0A;- Original project: &apos;Chapter-15-customer-service&apos;&#x0D;&#x0A;- Destination element: &apos;Chapter-15-eureka-server/src/main/resources&apos;&#x0D;&#x0A;- Original element: &apos;logback.xml&apos;" description="Copy file" destination="=Chapter-15-eureka-server/src\/main\/resources" element1="src/main/resources/logback.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1525552170437" units="0" version="1.0"/>
+</session>

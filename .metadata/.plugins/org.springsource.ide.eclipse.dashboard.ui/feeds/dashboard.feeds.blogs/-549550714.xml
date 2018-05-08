@@ -5,7 +5,45 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2018-05-01T11:44:33Z</updated>
+  <updated>2018-05-07T16:12:33Z</updated>
+  <entry>
+    <title>Spring Cloud Task 2.0.0.RELEASE is now available</title>
+    <link rel="alternate" href="https://spring.io/blog/2018/05/07/spring-cloud-task-2-0-0-release-is-now-available" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Michael Minella</name>
+    </author>
+    <id>tag:spring.io,2018-05-07:3263</id>
+    <updated>2018-05-07T16:12:33Z</updated>
+    <content type="html">&lt;p&gt;We are pleased to announce that Spring Cloud Task 2.0.0.RELEASE is now available on Github and the Pivotal download repository. Many thanks to all of those who contributed to this release.&lt;/p&gt;&lt;h2&gt;&lt;a href="#what-rsquo-s-new" class="anchor" name="what-rsquo-s-new"&gt;&lt;/a&gt;What&amp;rsquo;s New?&lt;/h2&gt;
+&lt;p&gt;Spring Cloud Task 2.0.0.RELEASE is intended to be the version of the framework aligned with Spring Boot 2. Updates from 1.2.x include:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Updates to all dependencies.&lt;/li&gt;
+  &lt;li&gt;Restricting concurrent task execution.&lt;/li&gt;
+  &lt;li&gt;A failed batch job execution fails a task.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Let&amp;rsquo;s walk through these updates in more detail.&lt;/p&gt;&lt;h2&gt;&lt;a href="#update-to-all-dependencies" class="anchor" name="update-to-all-dependencies"&gt;&lt;/a&gt;Update to All Dependencies&lt;/h2&gt;
+&lt;p&gt;As stated earlier, this is the generally available release that brings Spring Cloud Task into alignment with Spring Boot 2. This includes updating all dependencies as well as updating the minimum version of java to JDK 8+.&lt;/p&gt;&lt;h2&gt;&lt;a href="#restricting-concurrent-task-execution" class="anchor" name="restricting-concurrent-task-execution"&gt;&lt;/a&gt;Restricting Concurrent Task Execution&lt;/h2&gt;
+&lt;p&gt;Spring Cloud Task is intended to be used to execute finite workloads in a cloud environment. Many workloads that fall into that category need to be executed serially. Preventing multiple instances of a given task from executing provides important value. This release adds the ability to prevent multiple instances of a given task from being executed at the same time. This functionality is built on the distributed locking mechanisms built into Spring Integration. Once the required dependencies from Spring Integration (&lt;code&gt;spring-integration-core&lt;/code&gt; and &lt;code&gt;spring-integration-jdbc&lt;/code&gt;, to be specific) are included, you can configure a single property on your task (&lt;code&gt;spring.cloud.task.singleInstanceEnabled=true&lt;/code&gt;) to prevent multiple instances from executing. If this property is set to &lt;code&gt;true&lt;/code&gt; (it is &lt;code&gt;false&lt;/code&gt; by default), a second attempt at executing the task while the first is running causes the second task execution to fail, indicating that the task is already running.&lt;/p&gt;
+&lt;p&gt;More information on this feature can be found in the documentation &lt;a href="https://docs.spring.io/spring-cloud-task/docs/2.0.0.RELEASE/reference/htmlsingle/#_restricting_spring_cloud_task_instances"&gt;here&lt;/a&gt;.&lt;/p&gt;&lt;h2&gt;&lt;a href="#a-failed-batch-job-execution-fails-a-task" class="anchor" name="a-failed-batch-job-execution-fails-a-task"&gt;&lt;/a&gt;A Failed Batch Job Execution Fails a Task&lt;/h2&gt;
+&lt;p&gt;By default, the mechanisms that run Spring Batch jobs within Spring Boot log any job failures and happily continue along. However, that means that a task running a Spring Batch job always completes successfully. This release enables the ability for a Spring Batch job that fails to cause the task that enclosed it to fail. Like all things Spring, we make this hard to consume&amp;hellip;. Just set the property &lt;code&gt;spring.cloud.task.batch.failOnJobFailure=true&lt;/code&gt; (&lt;code&gt;false&lt;/code&gt; is the default). With that property set, if a job is run within the configured task and fails, the task results in a failure (indicated via an exit code of 1).&lt;/p&gt;
+&lt;p&gt;More information on this feature can be found in the documentation &lt;a href="https://docs.spring.io/spring-cloud-task/docs/2.0.0.RELEASE/reference/htmlsingle/#batch-failures-and-tasks"&gt;here&lt;/a&gt;.&lt;/p&gt;&lt;h2&gt;&lt;a href="#what-do-you-think" class="anchor" name="what-do-you-think"&gt;&lt;/a&gt;What Do You Think?&lt;/h2&gt;
+&lt;p&gt;We look forward to your feedback on these new features in &lt;a href="https://github.com/spring-cloud/spring-cloud-task/issues"&gt;Github&lt;/a&gt;, &lt;a href="http://stackoverflow.com/tags/spring-cloud-task"&gt;StackOverflow&lt;/a&gt;, &lt;a href="https://gitter.im/spring-cloud/spring-cloud-task"&gt;Gitter&lt;/a&gt;, or directly via Twitter &lt;a href="https://twitter.com/michaelminella"&gt;@michaelminella&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cloud.spring.io/spring-cloud-task/"&gt;Spring Cloud Task Home&lt;/a&gt; | &lt;a href="https://github.com/spring-cloud/spring-cloud-task"&gt;Source on GitHub&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-cloud-task/docs/2.0.0.RELEASE/reference/htmlsingle/"&gt;Reference Documentation&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Tips: Metrics Collection in Spring Boot 2 with Micrometer</title>
+    <link rel="alternate" href="https://spring.io/blog/2018/05/02/spring-tips-metrics-collection-in-spring-boot-2-with-micrometer" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2018-05-02:3262</id>
+    <updated>2018-05-02T09:53:36Z</updated>
+    <content type="html">&lt;p&gt;speaker: &lt;a href="http://twitter.com/starbuxman"&gt;Josh Long&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Hi Spring fans! In this installment of Spring Tips we look at the Micrometer metrics collection and publication facade. Micrometer is a new project from Pivotal that underpins the Actuator metrics endpoint in Spring Boot 2.0.&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/JAdxO1XboJY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;</content>
+  </entry>
   <entry>
     <title>This Week in Spring - May 1st, 2018</title>
     <link rel="alternate" href="https://spring.io/blog/2018/05/01/this-week-in-spring-may-1st-2018" />
@@ -1710,64 +1748,5 @@ class StatementGenerator {&#xD;
 &lt;/ul&gt;
 &lt;p&gt;Spring Boot 1.5.11 (superseded by 1.5.12 due to &lt;a href="https://spring.io/blog/2018/04/09/cve-2018-1275-address-partial-fix-for-cve-2018-1270"&gt;CVE-2018-1275&lt;/a&gt;) and 2.0.1 already pull in the above Spring Data versions, including the fixes that were &lt;a href="https://spring.io/blog/2018/04/05/spring-boot-2-0-1-available-now"&gt;released last week&lt;/a&gt;, and are now also available for use.&lt;/p&gt;
 &lt;p&gt;Please review the information in the CVE reports and upgrade immediately.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Tips: the Cloud Foundry Java Client</title>
-    <link rel="alternate" href="https://spring.io/blog/2018/04/11/spring-tips-the-cloud-foundry-java-client" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2018-04-11:3246</id>
-    <updated>2018-04-11T06:21:29Z</updated>
-    <content type="html">&lt;p&gt;Speaker: &lt;a href="http://twitter.com/Starbuxman"&gt;Josh Long&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Hi Spring fans! In this installment of &lt;em&gt;Spring Tips&lt;/em&gt; we&amp;rsquo;ll look at the reactive Cloud Foundry Java client. We&amp;rsquo;ll see how to use it support applications that know how to deploy themselves into a cloud target.&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/EtxD_RzKSwk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;</content>
-  </entry>
-  <entry>
-    <title>This Week in Spring - April 10th, 2018</title>
-    <link rel="alternate" href="https://spring.io/blog/2018/04/11/this-week-in-spring-april-10th-2018" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2018-04-11:3245</id>
-    <updated>2018-04-11T03:26:02Z</updated>
-    <content type="html">&lt;p&gt;Hi Spring fans! This week I&amp;rsquo;m in Atlanta, Indianapolis and Cincinnati! I&amp;rsquo;ll be speaking at the &lt;a href="https://www.meetup.com/AtlantaSpring/events/244444404/"&gt;Atlanta, GA Spring Meetup on Tuesday the 10th&lt;/a&gt; where I&amp;rsquo;ll be looking about all things new, &lt;em&gt;bootiful&lt;/em&gt; and &lt;em&gt;cloud-native&lt;/em&gt; including reactive programming, Spring Web Flux, Spring Cloud Finchley, Spring Cloud Function and &lt;a href="http://ProjectRiff.io"&gt;Project Riff&lt;/a&gt;. Then it&amp;rsquo;s off &lt;a href="https://www.meetup.com/Indianapolis-Java-User-Group/events/248184994/"&gt;to Indianapolis where I&amp;rsquo;ll be doing the same talk&lt;/a&gt; on Thursday the 12th.&lt;/p&gt;
-&lt;p&gt;What a crazy week it&amp;rsquo;s been! There&amp;rsquo;s so much to get to this week. I want to call out, first, that there are some CVEs out there and if you haven&amp;rsquo;t already, you should be updating urgently and accordingly. Read on for more information. &lt;/p&gt;
-&lt;p&gt;Secondly, our amazing Renaissance nerd and mad scientist &lt;a href="http://twitter.com/ankinson"&gt;Andy Wilkinson&lt;/a&gt; takes top spot for most announcements this week. What an amazing person and prolific engineer! Week after week, year after year, he&amp;rsquo;s tirelessly working on stuff that underpins what you see reflected on this blog, but it&amp;rsquo;s rarer to see him blog so often. I just wanted to point him out because he&amp;rsquo;s made your lives better at some point and you probably didn&amp;rsquo;t even realize it :)&lt;/p&gt;
-&lt;p&gt;Anyway, without further ado! Let&amp;rsquo;s get to it!&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;There&amp;rsquo;s a new &lt;a href="https://github.com/spring-projects/spring-integration/releases"&gt;Spring Integration 5.0.4 release&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;Spring IO Platform lead Andy Wilkinson &lt;a href="https://spring.io/blog/2018/04/10/spring-io-platform-brussels-sr9"&gt;has just announced Spring IO Platform Brussels SR9&lt;/a&gt; which contains updated versions of Spring Boot and Spring Framework 4.3.16.&lt;/li&gt;
-  &lt;li&gt;Spring Cloud Stream lead Oleg Zhurakousky has just announced Spring Cloud Stream 2.0. The new release contains a &lt;em&gt;lot&lt;/em&gt; of improvements &lt;a href="https://spring.io/blog/2018/04/10/announcing-general-availability-of-spring-cloud-stream-elmhurst-release-2-0-0-release"&gt;so definitely read the blog&lt;/a&gt;. I also did a &lt;em&gt;Spring Tips&lt;/em&gt; installment &lt;a href="https://spring.io/blog/2018/04/04/spring-tips-spring-cloud-stream-kafka-streams"&gt;on one of the new features, Spring Cloud Streams Kafka Streams&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Spring Boot lead Phil Webb has &lt;a href="https://spring.io/blog/2018/04/10/spring-boot-1-5-12-available-now"&gt;just announced Spring Boot 1.5.12&lt;/a&gt; which is a recommended update for all Spring Boot users. It includes the updated Spring Framework release which in turn addresses a recent CVE.&lt;/li&gt;
-  &lt;li&gt;Spring Framework ninja Rossen Stoyanchev has just released an updated Spring Framework &lt;a href="https://spring.io/blog/2018/04/09/cve-2018-1275-address-partial-fix-for-cve-2018-1270"&gt;release to address CVE 2018 1270&lt;/a&gt;. Upgrade ASAP!&lt;/li&gt;
-  &lt;li&gt;Spring IO Platform lead Andy Wilkinson &lt;a href="https://spring.io/blog/2018/04/09/spring-io-platform-cairo-release"&gt;has just announced Spring IO Platform Cairo-RELEASE&lt;/a&gt;. The Cairo generation of the Platform builds on top of Spring Framework 5.0 and Spring Boot 2.0 and requires Java 8.&lt;/li&gt;
-  &lt;li&gt;Spring IO Platform lead Andy Wilkinson &lt;a href="https://spring.io/blog/2018/04/09/spring-io-platform-end-of-life-announcement"&gt;has just announced that the Spring IO Platform project will end twelve months from today, 9 April 2019&lt;/a&gt;, and that the project will be moved to the attic. Maintenance releases of both the Brussels and Cairo lines will continue to be published up until that time.&lt;/li&gt;
-  &lt;li&gt;Spring Framework ninja Rossen Stoyanchev has announced fixes for mutliple CVEs related to the Spring Framework. &lt;a href="https://spring.io/blog/2018/04/05/multiple-cve-reports-published-for-the-spring-framework"&gt;Upgrade now!&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Spring Cloud Stream legend Soby Chacko reminds us that &lt;a href="https://github.com/spring-cloud/spring-cloud-stream-samples"&gt;the samples have been updated in preparation for Spring Cloud Stream 2.0 release&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Spring Boot ninja Stéphane Nicoll has just announced &lt;a href="https://spring.io/blog/2018/04/05/spring-boot-2-0-1-available-now"&gt;the first maintenance release of Spring Boot 2&lt;/a&gt; which includes over 160 fixes, improvements and dependency updates.&lt;/li&gt;
-  &lt;li&gt;Spring Security ninja Joe Grandja just &lt;a href="https://spring.io/blog/2018/04/05/spring-security-5-0-4-and-4-2-5-released"&gt;announced Spring Security 5.0.4 and 4.2.5&lt;/a&gt;. Both releases primarily deliver bug fixes and dependency version updates along with some minor improvements.&lt;/li&gt;
-  &lt;li&gt;Spring Boot &lt;a href="https://spring.io/blog/2018/04/05/spring-boot-1-5-11-available-now"&gt;ninja Stéphane Nicoll just announced Spring Boot 1.5.11&lt;/a&gt; which includes over 70 fixes, improvements and dependency updates.&lt;/li&gt;
-  &lt;li&gt;Spring Vault lead Mark Paluch just &lt;a href="https://spring.io/blog/2018/04/05/spring-vault-1-1-2-and-2-0-1-released"&gt;announced that Spring Vault 1.1.2 and 2.0.1 have been released&lt;/a&gt;. Bot releases primarily deliver bug fixes and dependency version updates along with some minor improvements.&lt;/li&gt;
-  &lt;li&gt;Spring Data ninja Mark Paluch has &lt;a href="https://spring.io/blog/2018/04/04/spring-data-ingalls-sr11-and-kay-sr6-released"&gt;just announced Ingalls SR11 and Kay SR6 service releases&lt;/a&gt;. The Ingalls service release ships on top of the just-released Spring Framework 4.3.15 and in preparation of the upcoming Spring Boot 1.5.11 release. The Kay service release picks up Spring Framework 5.0.5 and will be picked up by Spring Boot 2.0.1 for your convenience.&lt;/li&gt;
-  &lt;li&gt;Spring REST Docs lead Andy Wilkinson &lt;a href="https://spring.io/blog/2018/04/04/spring-rest-docs-2-0-1-release"&gt;has announced a recommended upgrade for all Spring REST Docs 2.x users&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;And, not one to rest on his laurels, Spring REST Docs lead Andy Wilkinson has &lt;em&gt;also&lt;/em&gt; announced a maintenance release that includes a handful of bug fixes &lt;a href="https://spring.io/blog/2018/04/04/spring-rest-docs-1-2-4-release"&gt;and documentation improvements for all Spring REST Docs 1.x users&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;In this first &lt;a href="https://spring.io/blog/2018/04/04/spring-tips-spring-cloud-stream-kafka-streams"&gt;&lt;em&gt;Spring Tips&lt;/em&gt; installment&lt;/a&gt; for the year (!!) we look at Spring Cloud Stream Kafka Streams. Apache Kafka Streams supports Spark-like stream processing in your JVM-based code. You manage the clustering, and Kafka manages the rest. You don&amp;rsquo;t need to deploy a dedicated Spark cluster to get the benefits for stream processing with Apache Kafka Streams. Spring Cloud Stream Kafka Streams makes it simple to, in typical, concise Spring Cloud Stream fashion, configure Spring Cloud Streams and Apache Kafka Streams. In this video, we look at some of the details for stream processing including &lt;code&gt;KStream&lt;/code&gt;s and &lt;code&gt;KTable&lt;/code&gt;s, joining, serialization and de-serialization, and more.&lt;/li&gt;
-  &lt;li&gt;I like this long-ish &lt;a href="https://amarszalek.net/blog/2018/04/02/reactive-web-services-kotlin-spring-boot-2/"&gt;article by Adrian Marsza?ek on reactive microservices with Spring Boot 2 and Kotlin&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;This is an oldie-but-a-goodie: Andrew Fitzgerald has a nice post on using &lt;a href="https://twitter.com/Fitzoh/status/962462273972441088"&gt;Spring Cloud Gateway with a Cloud Foundry route service&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;There&amp;rsquo;s a lot to love in the new &lt;code&gt;cf&lt;/code&gt; CLI command. &lt;a href="https://www.cloudfoundry.org/blog/cloud-foundry-cli-top-10-tips-updates/"&gt;Check out this blog for all the details&lt;/a&gt;. Did you know that the &lt;code&gt;cf&lt;/code&gt; CLI is now 700% faster in some cases?&lt;/li&gt;
-  &lt;li&gt;Simon Moser has put together a &lt;a href="https://medium.com/@sdmoser/cloud-foundry-and-kubernetes-a-brief-history-of-cf-k8s-4cf9c1614416"&gt;nice history of Cloud Foundry and Kubernetes&lt;/a&gt;. This is a really interesting read!&lt;/li&gt;
-  &lt;li&gt;Neo4j evangelist extraordinairre Jennifer Reif has a great post on &lt;a href="https://t.co/10c8pdsfui?amp=1"&gt;using Spring Data Neo4j and Spring Boot&lt;/a&gt; - do NOT miss this post!&lt;/li&gt;
-  &lt;li&gt;The legendaryy Aboullaite Mohammed has put together a very cool &lt;a href="https://aboullaite.me/spring-boot-metrics-monitoring-using-tick-stack/"&gt;post on using Spring Boot and the Micrometer project with the TICK stack: Telegrap/InfluxDB/Chronograph/Kapacitor&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;I loved this post. It explains how one developer, Andrei Chernyshev, &lt;a href="https://itnext.io/java-10-migration-story-cdc65c05bb5a"&gt;moved a Kotlin-language based Spring Boot application from JVM 8 to JVM 10&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;Spring Security lead Rob Winch has &lt;a href="https://www.infoq.com/presentations/spring-security-3-reactive"&gt;a great talk up on InfoQ on the reactive bits in Spring Security 5&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Want to speak at &lt;a href="https://springoneplatform.io/cfp"&gt;SpringOne Platform 2018&lt;/a&gt;? Submit your talk tout-de-suite! CFP&amp;rsquo;s closing soon!&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://projectriff.io/blog/announcing-riff-0-0-6/"&gt;Project Riff, the function-as-a-service platform from Pivotal, have just announced Riff 0.0.6&lt;/a&gt;. Get the bits ASAP!&lt;/li&gt;
-  &lt;li&gt;Micrometer lead and master-of-metrics Jon Schneider has a great example &lt;a href="https://t.co/mcJkLLfhEB?amp=1"&gt;of embedding the Netflix Atlas project in a Spring Boot application&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Flowable 6.3.0 release has been &lt;a href="https://blog.flowable.org/2018/04/04/flowable-6-3-0-release/"&gt;updated to use Spring Boot 2.0&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Java Champion and Java legend Simon Maple has been &lt;a href="https://www.cloudfoundry.org/blog/security-corner-snyk-top-six-vulnerabilities-maven-npm/"&gt;blogging about security for Java applications on Cloud Foundry. Check this out!&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content>
   </entry>
 </feed>

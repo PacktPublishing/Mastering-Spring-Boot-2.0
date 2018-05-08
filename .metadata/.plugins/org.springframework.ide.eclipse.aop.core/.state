@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
-<aop-project name="Chapter-12-account-service-docker"/>
-<aop-project name="Chapter-12-eureka-server-docker"/>
-<aop-project name="Chapter-13-account-service-swagger"/>
-<aop-project name="Chapter-12-customer-service-docker"/>
-<aop-project name="Chapter-12-notification-service-docker"/>
-<aop-project name="Chapter-01-mastering-spring-boot"/>
+<aop-project name="Chapter-15-account-service"/>
+<aop-project name="Chapter-15-eureka-server"/>
+<aop-project name="Chapter-15-customer-service"/>
 </aop-reference-model>
