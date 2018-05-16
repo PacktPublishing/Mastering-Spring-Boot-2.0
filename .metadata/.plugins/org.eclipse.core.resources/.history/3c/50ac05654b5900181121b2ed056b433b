@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.dineshonjava.apizuulservice.filters;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+public class RouteFilter {
+
+}

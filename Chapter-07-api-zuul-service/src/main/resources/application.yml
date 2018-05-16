@@ -14,12 +14,13 @@ eureka:
 
 zuul:
   ignoredServices: '*'
+  prefix: /api
   routes:
-    accounts:
-       path: /api/accounts/**
+    account-service:
+       path: /accounts/**
        serviceId: ACCOUNT-SERVICE
-    customers:
-       path: /api/customers/**
+    customer-service:
+       path: /customers/**
        serviceId: CUSTOMER-SERVICE
   host:
     socket-timeout-millis: 30000       

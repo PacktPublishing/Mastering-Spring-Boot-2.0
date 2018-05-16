@@ -5,7 +5,233 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2018-05-15T19:46:10Z</updated>
+  <updated>2018-05-16T18:57:00Z</updated>
+  <entry>
+    <title>Spring Cloud Data Flow 1.5.0 Released</title>
+    <link rel="alternate" href="https://spring.io/blog/2018/05/16/spring-cloud-data-flow-1-5-0-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Mark Pollack</name>
+    </author>
+    <id>tag:spring.io,2018-05-16:3281</id>
+    <updated>2018-05-16T18:57:00Z</updated>
+    <content type="html">&lt;div class="paragraph"&gt;
+&lt;p&gt;The &lt;a href="https://cloud.spring.io/spring-cloud-dataflow/"&gt;Spring Cloud Data Flow&lt;/a&gt; team is pleased to announce the &lt;code&gt;1.5.0&lt;/code&gt; GA release. Follow the &lt;em&gt;Getting Started&lt;/em&gt; guides for &lt;a href="https://docs.spring.io/spring-cloud-dataflow/docs/1.5.0.RELEASE/reference/htmlsingle/#getting-started"&gt;Local Server&lt;/a&gt;, &lt;a href="https://docs.spring.io/spring-cloud-dataflow-server-cloudfoundry/docs/1.5.0.RELEASE/reference/htmlsingle/#getting-started"&gt;Cloud Foundry&lt;/a&gt;, and &lt;a href="https://docs.spring.io/spring-cloud-dataflow-server-kubernetes/docs/1.5.0.RELEASE/reference/htmlsingle/#kubernetes-getting-started"&gt;Kubernetes&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="here-are-the-highlights"&gt;&lt;a class="anchor" href="#here-are-the-highlights"&gt;&lt;/a&gt;Here are the highlights:&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="ulist"&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;UI Improvements&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Spring Boot, Spring Cloud Stream 2.0, and Spring Cloud Task 2.0 Support&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Updated Application Starters&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Metrics Improvements&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Nested splits for Composed Tasks&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Kubernetes Improvements&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Updated File Ingest sample&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="ui-improvements"&gt;&lt;a class="anchor" href="#ui-improvements"&gt;&lt;/a&gt;UI Improvements&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;We have continued to improve the UI/UX of the Dashboard. We hope that you will immediately notice an overall lighter weight design. The Tasks tab has been rewritten to match the UX styling of the other tabs. A new paginator component has been added to all the list pages. Switching from a list of 20, 30, 50, or 100 items per page is possible. This further simplifies the bulk operation workflows.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;The updated &lt;a href="https://docs.spring.io/spring-cloud-dataflow/docs/1.5.0.RELEASE/reference/htmlsingle/#dashboard-stream-deploy"&gt;Stream Builder&lt;/a&gt; tab makes is easy to deploy Stream Definitions and update deployed streams. You can edit application and deployment properties as well as change the version of individual applications in the stream and re-deploy. Data Flow’s integration with &lt;a href="https://cloud.spring.io/spring-cloud-skipper/"&gt;Skipper&lt;/a&gt; handles the upgrade process, allowing for easy rollback in case the upgrade doesn’t go as planned. The Stream Builder tab also includes many optimizations, including better form validation and eager error reporting. Try it out!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="imageblock"&gt;
+&lt;div class="content"&gt;
+&lt;img src="https://raw.githubusercontent.com/spring-cloud/spring-cloud-dataflow/master/spring-cloud-dataflow-docs/src/main/asciidoc/images/dataflow-stream-deploy-builder.png" alt="Stream Builder Tab"&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;There has also been a significant amount of refactoring to optimize the code base and prepare for future extensions and feature additions. End-to-end testing with Selenium and SauceLabs has also been added.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="spring-boot-spring-cloud-stream-2-0-support"&gt;&lt;a class="anchor" href="#spring-boot-spring-cloud-stream-2-0-support"&gt;&lt;/a&gt;Spring Boot &amp;amp; Spring Cloud Stream 2.0 Support&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;We now support deploying Spring Boot 2.0 and Spring Cloud Stream 2.0-based applications.  Read the section on Metrics for related features.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="updated-application-starters"&gt;&lt;a class="anchor" href="#updated-application-starters"&gt;&lt;/a&gt;Updated Application Starters&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;A new GA release of the &lt;a href="https://cloud.spring.io/spring-cloud-stream-app-starters/"&gt;Stream App Starters&lt;/a&gt; - &lt;a href="https://cloud.spring.io/spring-cloud-stream-app-starters/"&gt;Celsius.SR2&lt;/a&gt; fixes a bug using Rabbit source/sink apps on PCF and updates the python apps.  A new GA release of &lt;a href="https://cloud.spring.io/spring-cloud-task-app-starters/"&gt;Task App Starters&lt;/a&gt; -  &lt;a href="https://docs.spring.io/spring-cloud-task-app-starters/docs/Clark.SR1/reference/htmlsingle/"&gt;Clark SR1&lt;/a&gt; removes some outdated tasks and includes a new release of the composted task runner.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;The release train &lt;a href="https://docs.spring.io/spring-cloud-stream-app-starters/docs/Darwin.RC1/reference/htmlsingle"&gt;Darwin RC1&lt;/a&gt; updates the stream application starters to be based on Spring Boot &amp;amp; Spring Cloud Stream 2.0. A &lt;a href="https://docs.spring.io/spring-cloud-stream-app-starters/docs/Darwin.RC1/reference/htmlsingle/#spring-cloud-stream-modules-grpc-processor"&gt;gRPC processor&lt;/a&gt; has been added. Import URLs can be found &lt;a href="https://cloud.spring.io/spring-cloud-stream-app-starters/#stream-app-starters-and-spring-cloud-data-flow-"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;The release train &lt;a href="https://docs.spring.io/spring-cloud-task-app-starters/docs/Dearborn.M1/reference/htmlsingle/"&gt;Dearborn M1&lt;/a&gt; updates the task application starters to be based on Spring Boot &amp;amp; Spring Cloud Task 2.0.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;The &lt;a href="https://start-scs.cfapps.io/"&gt;Spring Cloud Stream Application Initializr&lt;/a&gt; has been updated to support customizing Darwin-based apps.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="metrics-improvements"&gt;&lt;a class="anchor" href="#metrics-improvements"&gt;&lt;/a&gt;Metrics Improvements&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;The Spring Cloud Stream Application Starters library provides a couple utility classes to enrich micrometer-based monitoring by adding tags to &lt;a href="https://github.com/spring-cloud-stream-app-starters/core/blob/master/common/app-starters-micrometer-common/src/main/java/org/springframework/cloud/stream/app/micrometer/common/SpringCloudStreamMicrometerCommonTags.java"&gt;identify streams&lt;/a&gt; and the &lt;a href="https://github.com/spring-cloud-stream-app-starters/core/blob/master/common/app-starters-micrometer-common/src/main/java/org/springframework/cloud/stream/app/micrometer/common/CloudFoundryMicrometerCommonTags.java"&gt;Cloud Foundry environment&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;An updated &lt;a href="https://start-scs.cfapps.io/"&gt;Spring Cloud Stream Application Initializr&lt;/a&gt; now lets you add micrometer libraries to both Boot 1.5- and 2.0-based applications.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Two new sample applications showcase using Micrometer with Data Flow. The &lt;a href="https://docs.spring.io/spring-cloud-dataflow-samples/docs/current/reference/html/_micrometer.html#spring-cloud-data-flow-samples-micrometer-influx-overview"&gt;first sample&lt;/a&gt; uses &lt;a href="https://www.influxdata.com/"&gt;InfluxDB&lt;/a&gt; and &lt;a href="https://grafana.com/"&gt;Grafana&lt;/a&gt;. The &lt;a href="https://docs.spring.io/spring-cloud-dataflow-samples/docs/current/reference/html/_micrometer.html#_scdf_metrics_with_prometheus_and_grafana"&gt;second sample&lt;/a&gt; uses &lt;a href="https://prometheus.io/"&gt;Prometheus&lt;/a&gt; and Grafana.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="imageblock"&gt;
+&lt;div class="content"&gt;
+&lt;img src="https://docs.spring.io/spring-cloud-dataflow-samples/docs/current/reference/html/images/grafana-prometheus-dashboard.png" alt="Prometheus + Grafana Dashboard"&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Another work in progress that is quite interesting to follow is the use of the &lt;a href="https://github.com/promregator/promregator"&gt;Promregator&lt;/a&gt; project to monitor applications deployed on Cloud Foundry by using Prometheus. Follow &lt;a href="https://docs.google.com/document/d/1XGwjn1wUW843q8G8SEsZYuMRuBIKhsufH0yUEaLMbPc/edit?ts=5afc5875"&gt;these instructions&lt;/a&gt; to kick the tires.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;The 2.0 RC1 release of &lt;a href="https://github.com/spring-cloud/spring-cloud-dataflow-metrics-collector"&gt;Metrics Collector&lt;/a&gt; is based on Spring Boot 2.0 and Spring Cloud Stream 2.0. The Metrics Collector server supports collecting metrics from streams that contain only Boot 1.x or 2.x apps as well as streams that contain a &lt;a href="https://docs.spring.io/spring-cloud-dataflow/docs/1.5.0.RC1/reference/htmlsingle/#configuration-monitoring-deployed-applications"&gt;mixture of Boot versions&lt;/a&gt;. A consistent representation of the throughput rates will be captured and propagated over to Data Flow’s Dashboard.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="nested-splits-for-composed-tasks"&gt;&lt;a class="anchor" href="#nested-splits-for-composed-tasks"&gt;&lt;/a&gt;Nested splits for Composed Tasks&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Due to popular demand, this release added DSL support to interpret “nested splits” in composed tasks. The Flo Dashboard and Shell tooling automatically adapt to nested splits.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Here is how it looks in the Flo Dashboard for the DSL expression:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre&gt;&amp;lt;&amp;lt;extractFromFTP &amp;amp;&amp;amp; cleanseFiles || extractFromS3 &amp;amp;&amp;amp; splitTransform&amp;gt; &amp;amp;&amp;amp; merge || extractfromOracle&amp;gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="imageblock"&gt;
+&lt;div class="content"&gt;
+&lt;img src="https://raw.githubusercontent.com/spring-cloud/spring-cloud-dataflow/gh-pages/img/nested-splits-1-5-0-M1.png" alt="Nested Splits"&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;To use this feature, you have to register the &lt;code&gt;1.1.1.RELEASE&lt;/code&gt; version of the Composed Task Runner in SCDF.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;For Maven users&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre&gt;maven://org.springframework.cloud.task.app:composedtaskrunner-task:1.1.1.RELEASE&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;and for Docker users&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="listingblock"&gt;
+&lt;div class="content"&gt;
+&lt;pre&gt;docker:springcloudtask/composedtaskrunner-task:1.1.1.RELEASE&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="kubernetes-improvements"&gt;&lt;a class="anchor" href="#kubernetes-improvements"&gt;&lt;/a&gt;Kubernetes Improvements&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="ulist"&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The client and the cluster version compatibility have improved due to  &lt;a href="https://kubernetes.io/blog/2018/01/core-workloads-api-ga/"&gt;Core Workload APIs going GA&lt;/a&gt;. For example, a StatefulSet deployment for a partitioned streaming-pipeline dynamically resolves the version compatibility.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Extending the annotation support added to the “pod” configurations, it is now also possible to add custom annotations to “jobs” deployment.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Deploying with custom liveness and readiness probe ports is now supported.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;While using Skipper with Data Flow, it is already possible to target application deployment to multiple platform backends. However, we did not support targeting multiple Kubernetes platforms. Now you can. :)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The Kubernetes server now supports using a &lt;a href="https://docs.spring.io/spring-cloud-dataflow-server-kubernetes/docs/1.5.0.RELEASE/reference/htmlsingle/#_private_docker_registry"&gt;private Docker registry&lt;/a&gt; on a per-application basis.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="updated-file-ingest-sample"&gt;&lt;a class="anchor" href="#updated-file-ingest-sample"&gt;&lt;/a&gt;Updated File Ingest sample&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;A common use case is to detect new files on an FTP site, download them, and launch a batch job. We have added a new &lt;a href="https://docs.spring.io/spring-cloud-dataflow-samples/docs/current/reference/htmlsingle/#_stream_launching_batch_job"&gt;File Ingest sample&lt;/a&gt; for this use case. In the coming months, we will continue to improve the design and features.  You can follow along &lt;a href="https://waffle.io/spring-cloud/spring-cloud-dataflow-samples"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="other-bits-and-bobs"&gt;&lt;a class="anchor" href="#other-bits-and-bobs"&gt;&lt;/a&gt;Other bits and bobs&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="ulist"&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;A growing number of new issues dealt with the ability to individually and globally override &lt;code&gt;JAVA_OPTS&lt;/code&gt; for applications running on Cloud Foundry. We added a deployer property (&lt;code&gt;deployer.yourapp.cloudfoundry.javaOpts&lt;/code&gt;) to support setting this specific environment variable.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Switched to Hikari connection pool and restructure code to use fewer connections.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Several bug fixes in underlying deployer libraries.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="sect1"&gt;
+&lt;h2 id="stay-in-touch"&gt;&lt;a class="anchor" href="#stay-in-touch"&gt;&lt;/a&gt;Stay in touch&amp;#8230;&amp;#8203;&lt;/h2&gt;
+&lt;div class="sectionbody"&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;As always, we welcome feedback and contributions, so please reach out to us on &lt;a href="https://stackoverflow.com/questions/tagged/spring-cloud-dataflow"&gt;Stackoverflow&lt;/a&gt; or &lt;a href="https://github.com/spring-cloud/spring-cloud-dataflow/issues"&gt;GitHub&lt;/a&gt; or via &lt;a href="https://gitter.im/spring-cloud/spring-cloud-dataflow"&gt;Gitter&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Please try it out, share your feedback, and consider contributing to the project!&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Tips: Project Riff and Spring Cloud Function</title>
+    <link rel="alternate" href="https://spring.io/blog/2018/05/16/spring-tips-project-riff-and-spring-cloud-function" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2018-05-16:3282</id>
+    <updated>2018-05-16T15:54:51Z</updated>
+    <content type="html">&lt;p&gt;speaker: &lt;a href="http://twitter.com/Starbuxman"&gt;Josh Long&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Hi Spring fans! In this installment of Spring Tips we look at Spring Cloud Function (which lets you write serverless functions that run on your favorite function-as-a-service provider) and &lt;a href="http://projectRiff.io"&gt;Project Riff&lt;/a&gt;, the new open-source function-as-a-service platform from Pivotal.&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/E55oAtOhWZU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;</content>
+  </entry>
   <entry>
     <title>This Week in Spring - May 15th, 2018</title>
     <link rel="alternate" href="https://spring.io/blog/2018/05/15/this-week-in-spring-may-15th-2018" />
@@ -591,56 +817,5 @@ dependencies {
 &lt;p&gt;More information on this feature can be found in the documentation &lt;a href="https://docs.spring.io/spring-cloud-task/docs/2.0.0.RELEASE/reference/htmlsingle/#batch-failures-and-tasks"&gt;here&lt;/a&gt;.&lt;/p&gt;&lt;h2&gt;&lt;a href="#what-do-you-think" class="anchor" name="what-do-you-think"&gt;&lt;/a&gt;What Do You Think?&lt;/h2&gt;
 &lt;p&gt;We look forward to your feedback on these new features in &lt;a href="https://github.com/spring-cloud/spring-cloud-task/issues"&gt;Github&lt;/a&gt;, &lt;a href="http://stackoverflow.com/tags/spring-cloud-task"&gt;StackOverflow&lt;/a&gt;, &lt;a href="https://gitter.im/spring-cloud/spring-cloud-task"&gt;Gitter&lt;/a&gt;, or directly via Twitter &lt;a href="https://twitter.com/michaelminella"&gt;@michaelminella&lt;/a&gt;!&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://cloud.spring.io/spring-cloud-task/"&gt;Spring Cloud Task Home&lt;/a&gt; | &lt;a href="https://github.com/spring-cloud/spring-cloud-task"&gt;Source on GitHub&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-cloud-task/docs/2.0.0.RELEASE/reference/htmlsingle/"&gt;Reference Documentation&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Tips: Metrics Collection in Spring Boot 2 with Micrometer</title>
-    <link rel="alternate" href="https://spring.io/blog/2018/05/02/spring-tips-metrics-collection-in-spring-boot-2-with-micrometer" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2018-05-02:3262</id>
-    <updated>2018-05-02T09:53:36Z</updated>
-    <content type="html">&lt;p&gt;speaker: &lt;a href="http://twitter.com/starbuxman"&gt;Josh Long&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Hi Spring fans! In this installment of Spring Tips we look at the Micrometer metrics collection and publication facade. Micrometer is a new project from Pivotal that underpins the Actuator metrics endpoint in Spring Boot 2.0.&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/JAdxO1XboJY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;</content>
-  </entry>
-  <entry>
-    <title>This Week in Spring - May 1st, 2018</title>
-    <link rel="alternate" href="https://spring.io/blog/2018/05/01/this-week-in-spring-may-1st-2018" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2018-05-01:3261</id>
-    <updated>2018-05-01T11:44:33Z</updated>
-    <content type="html">&lt;p&gt;Hi Spring fans! Welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;! In the last week I went from Germany (for JAXON) to Linz, Austria (for DevOne) and Vienna, Austria (for a meetup) and now I&amp;rsquo;m in Melbourne, Australia (after a 10 hour stopover in Bangkok, Thailand), for the VOXXED Melbourne event. As usual, if you&amp;rsquo;re around &lt;a href="http://twitter.com/starbuxman"&gt;I&amp;rsquo;d love to hear from you&lt;/a&gt;! &lt;/p&gt;
-&lt;p&gt;Without further ado, we&amp;rsquo;ve got a lot to cover so let&amp;rsquo;s get to it! &lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://content.pivotal.io/blog/5-lessons-on-pivotal-s-fifth-birthday"&gt;Pivotal just turned 5!&lt;/a&gt; Happy birthday to us!&lt;/li&gt;
-  &lt;li&gt;Spring Cloud contributor Ryan Baxter has just announced Spring Cloud Finchley RC1. The new release is &lt;em&gt;packed&lt;/em&gt; with all sorts of new stuff and represents one of hopefully the &lt;a href="https://spring.io/blog/2018/04/25/spring-cloud-finchley-rc1-has-been-released"&gt;final releases before Spring Cloud Finchley before it&amp;rsquo;s GA&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Hi Spring fans! In last week&amp;rsquo;s installment of Spring Tips I looked at how to extricate process state - valuable for coordinating long running or mutli-actor processes - from business logic &lt;a href="https://spring.io/blog/2018/04/25/spring-tips-spring-statemachine"&gt;with Spring Statemachine&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;the &lt;a href="https://github.com/rabbitmq/rabbitmq-server/releases/tag/v3.7.5-beta.2"&gt;RabbitMQ 3.7.5-beta2 is now available&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;I really like this Chinese-language post on whether Spring Boot and Spring Cloud &lt;a href="https://www.cnblogs.com/ityouknow/p/7508306.html"&gt;can be used by small and medium-sized companies&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;The RabbitMQ blog has a nice post on using the &lt;a href="http://www.rabbitmq.com/blog/2018/04/10/rabbitmq-java-client-metrics-with-micrometer-and-datadog/"&gt;Micrometer integration in the RabbitMQ Java client to integrate with Datadog&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Jeroen Reijn gave a nice &lt;a href="https://www.youtube.com/watch?v=3NT_Wql8wMg&amp;feature=youtu.be"&gt;presentation on test-driven Spring REST Docs-based documentation&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;The Ordina blog has a nice post on using &lt;a href="https://ordina-jworks.github.io/spring/2018/04/28/Spring-Cloud-Contract-meet-Pact.html"&gt;Spring Cloud Contract to support consumer-driven contracts&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;I love this post by Gaurav Gupta &lt;a href="https://dzone.com/articles/synchronous-kafka-using-spring-request-reply-1?oid=twitter"&gt;on synchronous request/reply with Apache Kafka and Spring&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;The Baeldung has another interesting post (related to Servlets) that &lt;a href="http://www.baeldung.com/spring-servletcomponentscan"&gt;looks at the &lt;code&gt;@ServletComponentScan&lt;/code&gt; in Spring Boot&lt;/a&gt;: it detects all Servlet API &lt;code&gt;WebFilter&lt;/code&gt;, &lt;code&gt;WebListener&lt;/code&gt;, and &lt;code&gt;WebServlet&lt;/code&gt; annotations on servlet components.&lt;/li&gt;
-  &lt;li&gt;This is an oldie-but-a-goodie from the Baeldung blog: &lt;a href="http://www.baeldung.com/spring-boot-servlet-initializer"&gt;a Quick Intro to the &lt;code&gt;SpringBootServletInitializer&lt;/code&gt;&lt;/a&gt;, which is the mechanism that let&amp;rsquo;s Spring Boot applications run in a Servlet container setup, as opposed to a fat-&lt;code&gt;.jar&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;Do &lt;em&gt;not&lt;/em&gt; miss this new &lt;a href="https://t.co/aVR0yIiKTr?ssr=true"&gt;guide on Spring Cloud Gateway&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Bartosz Jedrzejewski put together a nice post on using Reactor (in a Spring WebFlux application) &lt;a href="https://www.e4developer.com/2018/04/28/springs-webflux-reactor-parallelism-and-backpressure/"&gt;to obtain parallelism and backpressure&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;And yet another Baeldung post, this time with a &lt;a href="http://www.baeldung.com/java-in-2018"&gt;review of the state of Java&lt;/a&gt;. The numbers in this year&amp;rsquo;s survey are very interesting! The numbers are very promising: Java 8 is now, by far, the majority deployed version of Java. Java 9 and 10 are gaining ground, though! Also interesting: Spring Framework 4 and Spring Framework 5 are are, by far, the majority deployed enterprise Java framework. The precise numbers aren&amp;rsquo;t clear, but it looks to be almost 75% of the pie-chart. Java EE and &amp;ldquo;Other&amp;rdquo; technologies account for what I&amp;rsquo;d guess is 20% of the remaining deployments, followed by Spring Framework 3, which looks to be about 5% or so (Maybe less?) Of the deployments that are based on Spring, a majority are based on Spring Boot, with less than 20% or so based on Spring without Spring Boot. IntelliJ, Apache Tomcat, and Maven are the clear leaders, too. Also interesting: Groovy, Kotlin and Scala (in that order) are the leaders in non-Java languages.&lt;/li&gt;
-  &lt;li&gt;The Heroku documentation has a great list of steps that are required to make a Spring Boot application cloud-ready. This blog was published on the Heroku blog but a lot &lt;a href="https://t.co/9rFWKNmQC4?ssr=true"&gt;of it applies to building cloud-native applications for any platform&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;This post demonstrates &lt;a href="https://www.innoq.com/en/blog/springless-testing/"&gt;how to test in a Spring application&lt;/a&gt; &lt;em&gt;without&lt;/em&gt; Spring. It sets up a scenario that &lt;em&gt;should&lt;/em&gt; be very uncommon, field injection, and demonstrates how adversely this affects the goals of testing. Remember what I always say: &amp;ldquo;every time you do field injection, a unit test dies!&amp;rdquo; The post then looks at how to test components, and to even remove Spring from the testing process.&lt;/li&gt;
-  &lt;li&gt;Nicolas Frankel looks at changes in &lt;a href="https://blog.frankel.ch/spring-boot-2-actuator-change-analysis/"&gt;Spring Boot 2&amp;rsquo;s Actuator&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;I love this &lt;a href="https://twitter.com/sjmaple/status/989550060894638084?s=12"&gt;cheat sheet on using Java 10&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;The Spring Cloud team is hiring! &lt;a href="https://twitter.com/springcloud/status/989644142258081797"&gt;Join us!&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Michael Simons and Michael Plöd &lt;a href="https://speakerdeck.com/michaelsimons/jax-2018-spring-boot-2-hot-topics"&gt;put together a nice German-language slidedeck on Spring Boot 2&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;The &lt;em&gt;All and Sundry&lt;/em&gt; blog has a &lt;a href="http://www.java-allandsundry.com/2018/04/spring-cloud-gateway-configuring-simple.html?m=1"&gt;nice post on configuring a simple route with Spring Cloud Gateway&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Part two of my series on building reactive &lt;a href="http://www.javamagazine.mozaicreader.com/MarApr2018/Twitter#&amp;pageSet=85&amp;page=0"&gt;Spring-based applications is now available in Java Magazine&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;The &lt;em&gt;Java Revisited&lt;/em&gt; blog has a nice post on &lt;a href="http://javarevisited.blogspot.de/2017/07/does-spring-certification-help-in-job-and-career.html"&gt;the motivations for pursuing certification in Spring Cloud&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;The call-for-papers for the inaugural &lt;a href="https://twitter.com/springcentral/status/988919061571485696"&gt;RabbitMQ Summit on November 12th, 2018 at CodeNode in London, UK is now open!&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content>
   </entry>
 </feed>
