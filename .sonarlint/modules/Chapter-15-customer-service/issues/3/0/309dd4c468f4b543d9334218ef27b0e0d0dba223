@@ -1,11 +1,17 @@
 
-psquid:S2629+"7Use the built-in formatting to construct this argument.(†”«¢şÿÿÿÿ8Ëçæ²,HÑRMAJORZ
+asquid:S14814"-Remove this unused "customer" local variable.(üïÆ—8ÁÀû³³,HÜRMINORZ
 CODE_SMELL
-„squid:CommentedOutCodeLine'"<This block of commented-out lines of code should be removed.(Ãê½¹ÿÿÿÿÿ8á›ô³³,HÒRMAJORZ
+~squid:CommentedOutCodeLine5"<This block of commented-out lines of code should be removed.(€Á¯i8ÁÀû³³,HßRMAJORZ
 CODE_SMELL
-psquid:S2629?"7Use the built-in formatting to construct this argument.(ÃÈºşÿÿÿÿ8ß€¨æ²,HÓRMAJORZ
+_squid:S1481>"+Remove this unused "params" local variable.(ÿ¯ğ8é·ùŠ´,HRMINORZ
 CODE_SMELL
-~squid:CommentedOutCodeLine3"<This block of commented-out lines of code should be removed.(€Á¯i8ÁÀû³³,HÔRMAJORZ
+nsquid:S1854>":Remove this useless assignment to local variable "params".(ÿ¯ğ8é·ùŠ´,H‘RMAJORZ
 CODE_SMELL
-asquid:S14812"-Remove this unused "customer" local variable.(üïÆ—8ÁÀû³³,HÕRMINORZ
+„squid:CommentedOutCodeLineA"<This block of commented-out lines of code should be removed.(¬ÚÏ÷ûÿÿÿÿ8 İ™Š´,H€RMAJORZ
+CODE_SMELL
+psquid:S2629-"7Use the built-in formatting to construct this argument.(†”«¢şÿÿÿÿ8Ëçæ²,HİRMAJORZ
+CODE_SMELL
+squid:S2293>"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÿ¯ğ8ÕºŠ´,HŠRMINORZ
+CODE_SMELL
+„squid:CommentedOutCodeLine)"<This block of commented-out lines of code should be removed.(Ãê½¹ÿÿÿÿÿ8á›ô³³,HÛRMAJORZ
 CODE_SMELL

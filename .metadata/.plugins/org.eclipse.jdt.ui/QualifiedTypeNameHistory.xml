@@ -44,4 +44,7 @@
 <fullyQualifiedTypeName name="org.slf4j.Logger"/>
 <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
 <fullyQualifiedTypeName name="com.dineshonjava.customerservice.domain.Account"/>
+<fullyQualifiedTypeName name="org.apache.commons.collections.map.MultiValueMap"/>
+<fullyQualifiedTypeName name="org.springframework.util.MultiValueMap"/>
+<fullyQualifiedTypeName name="org.springframework.cloud.sleuth.sampler.SamplerProperties"/>
 </qualifiedTypeNameHistroy>

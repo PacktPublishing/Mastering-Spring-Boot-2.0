@@ -1,0 +1,7 @@
+spring.application.name=AccountAPIGateway
+eureka.client.serviceUrl.defaultZone:http://localhost:8761/eureka
+server.port=8484
+security.basic.enable: false   
+management.security.enabled: false
+zuul.routes.account-service.serviceId=ACCOUNT-SERVICE
+zuul.host.socket-timeout-millis=30000

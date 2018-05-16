@@ -2,7 +2,7 @@
 <configuration>
 	<include resource="org/springframework/boot/logging/logback/defaults.xml"/>
 	<property name="spring.application.name" value="account-service"/>
-	<property name="CONSOLE_LOG_PATTERN" value="%d{yyyy-MM-dd HH:mm:ss.SSS} %5p [${spring.application.name},%X{X-B3-TraceId:-}, %X{X-B3-SpanId:-}] %m%n"/>
+	<property name="CONSOLE_LOG_PATTERN" value="%d{yyyy-MM-dd HH:mm:ss.SSS} %5p [${spring.application.name},%X{X-B3-TraceId:-}, %X{X-B3-SpanId:-},%X{X-Span-Export:-}] %m%n"/>
     <include resource="org/springframework/boot/logging/logback/console-appender.xml" />
 	<appender name="stash" class="net.logstash.logback.appender.LogstashTcpSocketAppender">
 		<destination>localhost:4560</destination>

@@ -5,8 +5,8 @@ spring:
     name: account-service
   sleuth:
     enabled: true
-    http:
-      enabled: true
+  zipkin:
+    enabled: true
     
 # Discovery Server Access
 eureka:
