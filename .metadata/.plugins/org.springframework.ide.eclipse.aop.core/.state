@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
-<aop-project name="Chapter-07-account-service"/>
-<aop-project name="Chapter-07-customer-service"/>
+<aop-project name="Chapter-09-customer-service"/>
+<aop-project name="Chapter-09-notification-service"/>
 <aop-project name="Chapter-07-eureka-server"/>
-<aop-project name="Chapter-07-api-zuul-service"/>
+<aop-project name="Chapter-09-event-driven-service"/>
+<aop-project name="Chapter-09-account-service"/>
 </aop-reference-model>

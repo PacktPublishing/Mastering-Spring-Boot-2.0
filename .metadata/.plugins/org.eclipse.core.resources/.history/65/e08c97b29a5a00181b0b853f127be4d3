@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: notification-service
+
+server:
+  port: 6262
+
+eureka:
+  client:
+    service-url:
+      default-zone: ${EUREKA_URI:http://localhost:8761/eureka}
+  instance:
+    prefer-ip-address: true

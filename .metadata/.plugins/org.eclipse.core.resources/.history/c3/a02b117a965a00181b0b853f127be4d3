@@ -1,0 +1,48 @@
+package com.dineshonjava.notificationservice.model;
+
+import java.io.Serializable;
+
+/**
+ * 
+ * @author Dinesh.Rajput
+ *
+ */
+public class Notification implements Serializable{
+	
+	private static final long serialVersionUID = 1L;
+	
+	private long timestamp;
+    private String message;
+    private String email;
+    private String mobile;
+    
+    public Notification() {
+		super();
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	public String getMobile() {
+		return mobile;
+	}
+	public void setMobile(String mobile) {
+		this.mobile = mobile;
+	}
+	public long getTimestamp() {
+		return timestamp;
+	}
+	public void setTimestamp(long timestamp) {
+		this.timestamp = timestamp;
+	}
+	public String getMessage() {
+		return message;
+	}
+	public void setMessage(String message) {
+		this.message = message;
+	}
+	
+    
+}

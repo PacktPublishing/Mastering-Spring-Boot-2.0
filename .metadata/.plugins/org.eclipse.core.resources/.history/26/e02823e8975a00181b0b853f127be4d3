@@ -1,0 +1,10 @@
+package com.dineshonjava.eventdrivenservice.config;
+
+import org.springframework.cloud.stream.annotation.EnableBinding;
+
+import com.dineshonjava.eventdrivenservice.stream.GreetingsStreams;
+
+@EnableBinding(GreetingsStreams.class)
+public class StreamsConfig {
+
+}

@@ -1,0 +1,24 @@
+/**
+ * 
+ */
+package com.dineshonjava.customerservice.service;
+
+import org.springframework.stereotype.Service;
+
+import com.dineshonjava.customerservice.stream.NotificationStreams;
+
+/**
+ * @author Dinesh.Rajput
+ *
+ */
+@Service
+public class NotificationService {
+	
+	private final NotificationStreams notificationStreams;
+
+	public NotificationService(NotificationStreams notificationStreams) {
+		super();
+		this.notificationStreams = notificationStreams;
+	}
+	
+}

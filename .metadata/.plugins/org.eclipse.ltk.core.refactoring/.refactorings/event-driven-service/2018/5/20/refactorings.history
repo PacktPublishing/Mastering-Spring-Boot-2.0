@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;event-driven-service/src/main/resources/application.properties&apos; to &apos;application.yml&apos;" description="Rename resource &apos;application.properties&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/application.properties" name="application.yml" stamp="1526561758612" updateReferences="true"/>
+</session>

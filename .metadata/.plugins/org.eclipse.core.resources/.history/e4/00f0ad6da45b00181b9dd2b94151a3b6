@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: account-service
+  cloud:
+    stream:
+      kafka:
+        binder:
+          brokers:
+          - localhost:9092
+      bindings:
+          notification-in:
+            destination: notification
+            contentType: application/json
+          notification-out:
+            destination: notification
+            contentType: application/json 
+server:
+  port: 6060
+
+eureka:
+  client:
+    service-url:
+      default-zone: ${EUREKA_URI:http://localhost:8761/eureka}
+  instance:
+    prefer-ip-address: true
