@@ -30,4 +30,5 @@ management:
     health:
       enabled: true
       show-details: always    
+
 spring.zipkin.baseUrl: http://localhost:9411/

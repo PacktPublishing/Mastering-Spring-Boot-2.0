@@ -56,4 +56,7 @@
 <fullyQualifiedTypeName name="lombok.experimental.Builder"/>
 <fullyQualifiedTypeName name="lombok.AccessLevel"/>
 <fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="com.dineshonjava.accountservice.domain.Notification"/>
+<fullyQualifiedTypeName name="zipkin.server.EnableZipkinServer"/>
+<fullyQualifiedTypeName name="zipkin.server.internal.EnableZipkinServer"/>
 </qualifiedTypeNameHistroy>
