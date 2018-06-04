@@ -1,7 +1,0 @@
-spring.application.name=AccountAPIGateway
-eureka.client.serviceUrl.defaultZone:http://localhost:9091/eureka
-server.port=8084
-security.basic.enable: false   
-management.security.enabled: false
-zuul.routes.employeeUI.serviceId=EmployeeDashBoard
-zuul.host.socket-timeout-millis=30000
