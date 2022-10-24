@@ -26,3 +26,7 @@ This book can be read without a computer or laptop at hand, in which case you ne
 * [Master Java Unit Testing with Spring Boot and Mockito [Video]](https://www.packtpub.com/application-development/master-java-unit-testing-spring-boot-and-mockito-video?utm_source=github&utm_medium=repository&utm_campaign=9781789346077)
 
 * [Master Microservices with Spring Boot and Spring Cloud [Video]](https://www.packtpub.com/application-development/master-microservices-spring-boot-and-spring-cloud-video?utm_source=github&utm_medium=repository&utm_campaign=9781789132779)
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781787127562">https://packt.link/free-ebook/9781787127562 </a> </p>
